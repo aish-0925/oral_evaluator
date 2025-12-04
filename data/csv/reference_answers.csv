@@ -1,0 +1,1580 @@
+question_id,ref_id,reference_answer_text
+Q001,R1,"An OS is system software that manages hardware, software resources, and provides services for computer programs."
+Q001,R2,"Operating system plays an essential role in os basics, helping the operating system to function efficiently."
+Q001,R3,"In simple terms, operating system refers to a mechanism or principle used in os basics to manage processes or resources."
+Q002,R1,"Functions include process management, memory management, file system management, device management, and security."
+Q002,R2,"Name main functions of operating system plays an essential role in os basics, helping the operating system to function efficiently."
+Q002,R3,"In simple terms, name main functions of operating system refers to a mechanism or principle used in os basics to manage processes or resources."
+Q003,R1,"A process is a program in execution, including program counter, registers, and variables."
+Q003,R2,"Process plays an essential role in process management, helping the operating system to function efficiently."
+Q003,R3,"In simple terms, process refers to a mechanism or principle used in process management to manage processes or resources."
+Q004,R1,A thread is the smallest unit of a process that can be scheduled and executed independently.
+Q004,R2,"Thread plays an essential role in process management, helping the operating system to function efficiently."
+Q004,R3,"In simple terms, thread refers to a mechanism or principle used in process management to manage processes or resources."
+Q005,R1,"A process is an independent program with its own memory, while a thread shares memory within a process and is lighter."
+Q005,R2,"Difference  process  thread plays an essential role in process management, helping the operating system to function efficiently."
+Q005,R3,"In simple terms, difference  process  thread refers to a mechanism or principle used in process management to manage processes or resources."
+Q006,R1,Multitasking allows multiple processes to run simultaneously on a CPU by managing execution through scheduling.
+Q006,R2,"Multitasking plays an essential role in os basics, helping the operating system to function efficiently."
+Q006,R3,"In simple terms, multitasking refers to a mechanism or principle used in os basics to manage processes or resources."
+Q007,R1,Time-sharing allows multiple users to use a system simultaneously by rapidly switching CPU time among processes.
+Q007,R2,"Time-sharing plays an essential role in os basics, helping the operating system to function efficiently."
+Q007,R3,"In simple terms, time-sharing refers to a mechanism or principle used in os basics to manage processes or resources."
+Q008,R1,Context switching is saving the state of a process and loading the state of another process so the CPU can switch between them.
+Q008,R2,"Context switching plays an essential role in process management, helping the operating system to function efficiently."
+Q008,R3,"In simple terms, context switching refers to a mechanism or principle used in process management to manage processes or resources."
+Q009,R1,"The kernel is the core part of an OS that manages system resources, process scheduling, memory, and hardware communication."
+Q009,R2,"Kernel plays an essential role in os basics, helping the operating system to function efficiently."
+Q009,R3,"In simple terms, kernel refers to a mechanism or principle used in os basics to manage processes or resources."
+Q010,R1,Monolithic OS has all services in one kernel; microkernel OS keeps minimal services in kernel and others in user space for modularity.
+Q010,R2,"Monolithic  microkernel os plays an essential role in os basics, helping the operating system to function efficiently."
+Q010,R3,"In simple terms, monolithic  microkernel os refers to a mechanism or principle used in os basics to manage processes or resources."
+Q011,R1,Virtual memory is memory management technique that gives an application the illusion of large continuous memory using disk space.
+Q011,R2,"Virtual memory plays an essential role in memory management, helping the operating system to function efficiently."
+Q011,R3,"In simple terms, virtual memory refers to a mechanism or principle used in memory management to manage processes or resources."
+Q011,R1,Provides an abstraction of memory using disk storage to extend physical RAM.
+Q011,R2,"Virtual memory plays an essential role in memory management, helping the operating system to function efficiently."
+Q011,R3,"In simple terms, virtual memory refers to a mechanism or principle used in memory management to manage processes or resources."
+Q012,R1,Paging divides memory into fixed-size pages to eliminate fragmentation and map virtual memory to physical memory.
+Q012,R2,"Paging plays an essential role in memory management, helping the operating system to function efficiently."
+Q012,R3,"In simple terms, paging refers to a mechanism or principle used in memory management to manage processes or resources."
+Q012,R1,Dividing memory into fixed-size pages for efficient allocation and mapping virtual memory.
+Q012,R2,"Paging plays an essential role in memory management, helping the operating system to function efficiently."
+Q012,R3,"In simple terms, paging refers to a mechanism or principle used in memory management to manage processes or resources."
+Q013,R1,"Segmentation divides memory into variable-sized segments based on logical divisions of a program, like code, data, stack."
+Q013,R2,"Segmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q013,R3,"In simple terms, segmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q014,R1,"A page fault occurs when a program accesses a page not currently in physical memory, triggering loading from disk."
+Q014,R2,"Page fault plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q014,R3,"In simple terms, page fault refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q014,R1,"Occurs when a process accesses a page not in memory, triggering loading from disk."
+Q014,R2,"Page fault plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q014,R3,"In simple terms, page fault refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q015,R1,"Demand paging loads a page into memory only when it is required by the process, reducing memory usage."
+Q015,R2,"Dem paging plays an essential role in memory management, helping the operating system to function efficiently."
+Q015,R3,"In simple terms, dem paging refers to a mechanism or principle used in memory management to manage processes or resources."
+Q016,R1,Thrashing occurs when excessive page swapping reduces system performance due to lack of sufficient memory.
+Q016,R2,"Thrashing plays an essential role in os basics, helping the operating system to function efficiently."
+Q016,R3,"In simple terms, thrashing refers to a mechanism or principle used in os basics to manage processes or resources."
+Q016,R1,Excessive page swapping that slows down system performance.
+Q016,R2,"Thrashing plays an essential role in os basics, helping the operating system to function efficiently."
+Q016,R3,"In simple terms, thrashing refers to a mechanism or principle used in os basics to manage processes or resources."
+Q017,R1,Deadlock is a situation where processes are waiting indefinitely for resources held by each other.
+Q017,R2,"Deadlock plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q017,R3,"In simple terms, deadlock refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q018,R1,"Mutual exclusion, hold and wait, no preemption, circular wait."
+Q018,R2,"Name necessary conditions for deadlock plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q018,R3,"In simple terms, name necessary conditions for deadlock refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q019,R1,Process scheduling is deciding the order of execution of processes using algorithms to maximize CPU utilization.
+Q019,R2,"Process scheduling plays an essential role in process management, helping the operating system to function efficiently."
+Q019,R3,"In simple terms, process scheduling refers to a mechanism or principle used in process management to manage processes or resources."
+Q020,R1,"FCFS, SJF, Priority, Round Robin, Multilevel Queue, Multilevel Feedback Queue."
+Q020,R2,"Name cpu scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q020,R3,"In simple terms, name cpu scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q020,R1,"FCFS, SJF, Priority, Round Robin, Multilevel Queue, Multilevel Feedback Queue."
+Q020,R2,"Name cpu scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q020,R3,"In simple terms, name cpu scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q020,R1,"FCFS, SJF, Priority, Round Robin, Multilevel Queue, Multilevel Feedback Queue."
+Q020,R2,"Name cpu scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q020,R3,"In simple terms, name cpu scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q020,R1,"FCFS, SJF, Priority, Round Robin, Multilevel Queue, Multilevel Feedback Queue."
+Q020,R2,"Name cpu scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q020,R3,"In simple terms, name cpu scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q020,R1,"FCFS, SJF, Priority, Round Robin, Multilevel Queue, Multilevel Feedback Queue."
+Q020,R2,"Name cpu scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q020,R3,"In simple terms, name cpu scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q021,R1,First-Come-First-Serve schedules processes in the order they arrive.
+Q021,R2,"Fcfs scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q021,R3,"In simple terms, fcfs scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q022,R1,Shortest Job First schedules the process with the smallest execution time next.
+Q022,R2,"Sjf scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q022,R3,"In simple terms, sjf scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q023,R1,Preemptive scheduling allows a running process to be interrupted and replaced by a higher-priority process.
+Q023,R2,"Preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q023,R3,"In simple terms, preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q023,R1,Allows running process to be interrupted by higher-priority process.
+Q023,R2,"Preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q023,R3,"In simple terms, preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q023,R1,Allows running process to be interrupted by higher-priority process.
+Q023,R2,"Preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q023,R3,"In simple terms, preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q023,R1,Allows running process to be interrupted by higher-priority process.
+Q023,R2,"Preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q023,R3,"In simple terms, preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q023,R1,Allows running process to be interrupted by higher-priority process.
+Q023,R2,"Preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q023,R3,"In simple terms, preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q024,R1,Non-preemptive scheduling does not interrupt a running process until it finishes or voluntarily yields CPU.
+Q024,R2,"Non-preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q024,R3,"In simple terms, non-preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q024,R1,Running process cannot be interrupted until it finishes or blocks.
+Q024,R2,"Non-preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q024,R3,"In simple terms, non-preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q024,R1,Running process cannot be interrupted until it finishes or blocks.
+Q024,R2,"Non-preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q024,R3,"In simple terms, non-preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q024,R1,Running process cannot be interrupted until it finishes or blocks.
+Q024,R2,"Non-preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q024,R3,"In simple terms, non-preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q024,R1,Running process cannot be interrupted until it finishes or blocks.
+Q024,R2,"Non-preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q024,R3,"In simple terms, non-preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q025,R1,"Round-robin scheduling assigns fixed time slices to processes in cyclic order, ensuring fairness."
+Q025,R2,"Round-robin scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q025,R3,"In simple terms, round-robin scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q025,R1,Assigns fixed time slices to processes in cyclic order for fairness.
+Q025,R2,"Round-robin scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q025,R3,"In simple terms, round-robin scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q025,R1,Assigns fixed time slices to processes cyclically.
+Q025,R2,"Round-robin scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q025,R3,"In simple terms, round-robin scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q025,R1,Assigns fixed time slices to processes cyclically for fairness.
+Q025,R2,"Round-robin scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q025,R3,"In simple terms, round-robin scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q025,R1,Assigns fixed time slices to processes cyclically for fairness.
+Q025,R2,"Round-robin scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q025,R3,"In simple terms, round-robin scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q026,R1,Priority scheduling runs the process with the highest priority next.
+Q026,R2,"Priority scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q026,R3,"In simple terms, priority scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q027,R1,Starvation occurs when low-priority processes never get CPU due to constant high-priority process arrival.
+Q027,R2,"Starvation in cpu scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q027,R3,"In simple terms, starvation in cpu scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q028,R1,Aging gradually increases priority of waiting processes to prevent starvation.
+Q028,R2,"Aging in scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q028,R3,"In simple terms, aging in scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q029,R1,"A semaphore is a synchronization tool used to control access to shared resources, typically using integer counters."
+Q029,R2,"Semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q029,R3,"In simple terms, semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q030,R1,"Binary semaphore can take 0 or 1 (mutual exclusion), counting semaphore can take any integer value for multiple resources."
+Q030,R2,"Difference  binary  counting semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q030,R3,"In simple terms, difference  binary  counting semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q031,R1,Mutex (mutual exclusion) is a locking mechanism ensuring that only one thread accesses a resource at a time.
+Q031,R2,"Mutex plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q031,R3,"In simple terms, mutex refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q031,R1,Mutex (mutual exclusion) allows only one thread to access a resource at a time.
+Q031,R2,"Mutex plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q031,R3,"In simple terms, mutex refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q031,R1,Mutual exclusion lock for one process/thread access at a time.
+Q031,R2,"Mutex plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q031,R3,"In simple terms, mutex refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q031,R1,Mutual exclusion lock for one process/thread access at a time.
+Q031,R2,"Mutex plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q031,R3,"In simple terms, mutex refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q032,R1,"Mutex is for mutual exclusion with ownership, semaphore can allow multiple processes and has no ownership."
+Q032,R2,"Difference  mutex  semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q032,R3,"In simple terms, difference  mutex  semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q032,R1,Mutex has ownership and allows single access; semaphore may allow multiple processes and has no ownership.
+Q032,R2,"Difference  mutex  semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q032,R3,"In simple terms, difference  mutex  semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q033,R1,"A classic synchronization problem where producers generate data and consumers use it, requiring proper synchronization to avoid race conditions."
+Q033,R2,"Producer-consumer problem plays an essential role in synchronization, helping the operating system to function efficiently."
+Q033,R3,"In simple terms, producer-consumer problem refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q034,R1,"Race condition occurs when multiple processes access shared data simultaneously, leading to inconsistent results."
+Q034,R2,"Race condition plays an essential role in synchronization, helping the operating system to function efficiently."
+Q034,R3,"In simple terms, race condition refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q035,R1,Critical section problem involves ensuring only one process executes a critical section at a time to prevent conflicts.
+Q035,R2,"Critical section problem plays an essential role in synchronization, helping the operating system to function efficiently."
+Q035,R3,"In simple terms, critical section problem refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q036,R1,"Busy waiting occurs when a process continuously checks a condition instead of sleeping, wasting CPU cycles."
+Q036,R2,"Busy waiting plays an essential role in os basics, helping the operating system to function efficiently."
+Q036,R3,"In simple terms, busy waiting refers to a mechanism or principle used in os basics to manage processes or resources."
+Q037,R1,A monitor is a high-level synchronization construct that allows safe access to shared resources by multiple threads.
+Q037,R2,"Monitor in os plays an essential role in os basics, helping the operating system to function efficiently."
+Q037,R3,"In simple terms, monitor in os refers to a mechanism or principle used in os basics to manage processes or resources."
+Q038,R1,"IPC allows processes to exchange data using methods like message passing, shared memory, pipes, and sockets."
+Q038,R2,"Inter-process communication (ipc) plays an essential role in process management, helping the operating system to function efficiently."
+Q038,R3,"In simple terms, inter-process communication (ipc) refers to a mechanism or principle used in process management to manage processes or resources."
+Q039,R1,"Shared memory, message passing, pipes, sockets, and signals."
+Q039,R2,"Name types of ipc plays an essential role in os basics, helping the operating system to function efficiently."
+Q039,R3,"In simple terms, name types of ipc refers to a mechanism or principle used in os basics to manage processes or resources."
+Q040,R1,"Pipe is a unidirectional communication channel between processes, usually in producer-consumer style."
+Q040,R2,"Pipe in os plays an essential role in os basics, helping the operating system to function efficiently."
+Q040,R3,"In simple terms, pipe in os refers to a mechanism or principle used in os basics to manage processes or resources."
+Q041,R1,Shared memory allows multiple processes to access the same memory region for faster communication.
+Q041,R2,"Shared memory plays an essential role in memory management, helping the operating system to function efficiently."
+Q041,R3,"In simple terms, shared memory refers to a mechanism or principle used in memory management to manage processes or resources."
+Q042,R1,"Message passing allows processes to communicate by sending and receiving messages, suitable for distributed systems."
+Q042,R2,"Message passing plays an essential role in os basics, helping the operating system to function efficiently."
+Q042,R3,"In simple terms, message passing refers to a mechanism or principle used in os basics to manage processes or resources."
+Q043,R1,"A file system manages how data is stored, organized, and accessed on storage devices."
+Q043,R2,"File system plays an essential role in file systems, helping the operating system to function efficiently."
+Q043,R3,"In simple terms, file system refers to a mechanism or principle used in file systems to manage processes or resources."
+Q044,R1,"Sequential access, direct (random) access, and indexed access."
+Q044,R2,"What are types of file access methods plays an essential role in file systems, helping the operating system to function efficiently."
+Q044,R3,"In simple terms, what are types of file access methods refers to a mechanism or principle used in file systems to manage processes or resources."
+Q045,R1,VFS is an abstraction layer that allows the OS to support multiple types of file systems in a uniform way.
+Q045,R2,"Virtual file system (vfs) plays an essential role in file systems, helping the operating system to function efficiently."
+Q045,R3,"In simple terms, virtual file system (vfs) refers to a mechanism or principle used in file systems to manage processes or resources."
+Q046,R1,Fragmentation occurs when memory or disk space is used inefficiently. Types: internal and external fragmentation.
+Q046,R2,"Fragmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q046,R3,"In simple terms, fragmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q047,R1,Compaction is combining free memory spaces to form larger contiguous blocks to reduce external fragmentation.
+Q047,R2,"Compaction in memory management plays an essential role in memory management, helping the operating system to function efficiently."
+Q047,R3,"In simple terms, compaction in memory management refers to a mechanism or principle used in memory management to manage processes or resources."
+Q048,R1,Swapping moves processes between main memory and secondary storage to free memory for other processes.
+Q048,R2,"Swapping plays an essential role in os basics, helping the operating system to function efficiently."
+Q048,R3,"In simple terms, swapping refers to a mechanism or principle used in os basics to manage processes or resources."
+Q049,R1,"Cache is a small, fast memory storing frequently accessed data, while virtual memory extends physical memory using disk."
+Q049,R2,"Difference  cache  virtual memory plays an essential role in memory management, helping the operating system to function efficiently."
+Q049,R3,"In simple terms, difference  cache  virtual memory refers to a mechanism or principle used in memory management to manage processes or resources."
+Q050,R1,A bootloader is a program that loads the operating system into memory during system startup.
+Q050,R2,"Bootloader plays an essential role in os basics, helping the operating system to function efficiently."
+Q050,R3,"In simple terms, bootloader refers to a mechanism or principle used in os basics to manage processes or resources."
+Q051,R1,A system call is an interface for programs to request services from the OS kernel.
+Q051,R2,"System call plays an essential role in system calls, helping the operating system to function efficiently."
+Q051,R3,"In simple terms, system call refers to a mechanism or principle used in system calls to manage processes or resources."
+Q052,R1,"Examples: open(), read(), write(), fork(), exec(), wait(), exit()."
+Q052,R2,"Give examples of system calls plays an essential role in os basics, helping the operating system to function efficiently."
+Q052,R3,"In simple terms, give examples of system calls refers to a mechanism or principle used in os basics to manage processes or resources."
+Q053,R1,User mode has restricted access; kernel mode has full access to hardware and system resources.
+Q053,R2,"Difference  user mode  kernel mode plays an essential role in os basics, helping the operating system to function efficiently."
+Q053,R3,"In simple terms, difference  user mode  kernel mode refers to a mechanism or principle used in os basics to manage processes or resources."
+Q054,R1,fork() creates a new process by duplicating the calling process.
+Q054,R2,"Fork in os plays an essential role in system calls, helping the operating system to function efficiently."
+Q054,R3,"In simple terms, fork in os refers to a mechanism or principle used in system calls to manage processes or resources."
+Q055,R1,exec() replaces the current process image with a new program.
+Q055,R2,"Exec in os plays an essential role in system calls, helping the operating system to function efficiently."
+Q055,R3,"In simple terms, exec in os refers to a mechanism or principle used in system calls to manage processes or resources."
+Q056,R1,A zombie process has completed execution but still has an entry in the process table to store exit status.
+Q056,R2,"Zombie process plays an essential role in process management, helping the operating system to function efficiently."
+Q056,R3,"In simple terms, zombie process refers to a mechanism or principle used in process management to manage processes or resources."
+Q057,R1,"An orphan processs parent terminates before it, and it is adopted by the init process."
+Q057,R2,"Orphprocess plays an essential role in process management, helping the operating system to function efficiently."
+Q057,R3,"In simple terms, orphprocess refers to a mechanism or principle used in process management to manage processes or resources."
+Q058,R1,"Init is the first process started by the kernel at boot, responsible for starting system services."
+Q058,R2,"Init process plays an essential role in process management, helping the operating system to function efficiently."
+Q058,R3,"In simple terms, init process refers to a mechanism or principle used in process management to manage processes or resources."
+Q059,R1,"New, Ready, Running, Waiting (Blocked), Terminated."
+Q059,R2,"What are different states of process plays an essential role in process management, helping the operating system to function efficiently."
+Q059,R3,"In simple terms, what are different states of process refers to a mechanism or principle used in process management to manage processes or resources."
+Q060,R1,Ready queue holds all processes in main memory that are ready to execute.
+Q060,R2,"Ready queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q060,R3,"In simple terms, ready queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q061,R1,Waiting queue holds processes waiting for I/O or other events.
+Q061,R2,"Waiting queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q061,R3,"In simple terms, waiting queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q062,R1,I/O scheduling determines the order in which I/O operations are processed to improve efficiency.
+Q062,R2,"I/o scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q062,R3,"In simple terms, i/o scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q063,R1,"FCFS, SSTF (Shortest Seek Time First), SCAN, C-SCAN, LOOK, C-LOOK."
+Q063,R2,"Name i/o scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q063,R3,"In simple terms, name i/o scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q064,R1,Only pages required by a process are loaded into memory on demand.
+Q064,R2,"Dem-paged virtual memory plays an essential role in memory management, helping the operating system to function efficiently."
+Q064,R3,"In simple terms, dem-paged virtual memory refers to a mechanism or principle used in memory management to manage processes or resources."
+Q065,R1,Copy-on-write delays copying of shared resources until a modification occurs.
+Q065,R2,"Copy-on-write plays an essential role in os basics, helping the operating system to function efficiently."
+Q065,R3,"In simple terms, copy-on-write refers to a mechanism or principle used in os basics to manage processes or resources."
+Q066,R1,Swap space is disk space used to temporarily hold memory pages that cannot fit in RAM.
+Q066,R2,"Swap space plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q066,R3,"In simple terms, swap space refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q067,R1,Boot process is the sequence of steps to start a computer and load the OS.
+Q067,R2,"Boot process plays an essential role in process management, helping the operating system to function efficiently."
+Q067,R3,"In simple terms, boot process refers to a mechanism or principle used in process management to manage processes or resources."
+Q068,R1,RTOS is an OS designed to handle time-critical tasks with predictable response times.
+Q068,R2,"Real-time operating system (rtos) plays an essential role in os basics, helping the operating system to function efficiently."
+Q068,R3,"In simple terms, real-time operating system (rtos) refers to a mechanism or principle used in os basics to manage processes or resources."
+Q069,R1,Hard RTOS guarantees task completion within a deadline; soft RTOS aims for best-effort timing.
+Q069,R2,"Difference  hard  soft rtos plays an essential role in os basics, helping the operating system to function efficiently."
+Q069,R3,"In simple terms, difference  hard  soft rtos refers to a mechanism or principle used in os basics to manage processes or resources."
+Q070,R1,A distributed OS manages resources and processes across multiple networked computers as a single system.
+Q070,R2,"Distributed operating system plays an essential role in os basics, helping the operating system to function efficiently."
+Q070,R3,"In simple terms, distributed operating system refers to a mechanism or principle used in os basics to manage processes or resources."
+Q071,R1,"NOS provides services to computers connected in a network, like file sharing and printer access."
+Q071,R2,"Network operating system plays an essential role in os basics, helping the operating system to function efficiently."
+Q071,R3,"In simple terms, network operating system refers to a mechanism or principle used in os basics to manage processes or resources."
+Q072,R1,"Microkernel contains minimal core services like communication, scheduling, and memory management."
+Q072,R2,"Microkernel plays an essential role in os basics, helping the operating system to function efficiently."
+Q072,R3,"In simple terms, microkernel refers to a mechanism or principle used in os basics to manage processes or resources."
+Q073,R1,Monolithic kernel contains all OS services in one large block of code running in kernel mode.
+Q073,R2,"Monolithic kernel plays an essential role in os basics, helping the operating system to function efficiently."
+Q073,R3,"In simple terms, monolithic kernel refers to a mechanism or principle used in os basics to manage processes or resources."
+Q074,R1,Hybrid kernel combines features of microkernel and monolithic kernel for performance and modularity.
+Q074,R2,"Hybrid kernel plays an essential role in os basics, helping the operating system to function efficiently."
+Q074,R3,"In simple terms, hybrid kernel refers to a mechanism or principle used in os basics to manage processes or resources."
+Q075,R1,Paging uses fixed-size blocks; segmentation uses variable-size logical divisions of memory.
+Q075,R2,"Paging vs segmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q075,R3,"In simple terms, paging vs segmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q076,R1,"process of selecting a memory page to remove when physical memory is full so a new page can be loaded."
+Q076,R2,"OS technique used to decide which page in RAM should be swapped out to make space for a new page when a page fault occurs"
+Q076,R3,"It is the algorithm used by the operating system to replace an existing page in memory with another page from disk whenever memory is full."
+Q077,R1,"FIFO, LRU (Least Recently Used), Optimal, Clock."
+Q077,R2,"Name page replacement algorithms plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q077,R3,"In simple terms, name page replacement algorithms refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q078,R1,FIFO removes the oldest page in memory first when replacement is needed.
+Q078,R2,"Fifo page replacement plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q078,R3,"In simple terms, fifo page replacement refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q079,R1,LRU removes the page that has not been used for the longest time.
+Q079,R2,"Lru page replacement plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q079,R3,"In simple terms, lru page replacement refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q080,R1,Working set model keeps track of pages recently used to reduce page faults.
+Q080,R2,"Working set model plays an essential role in os basics, helping the operating system to function efficiently."
+Q080,R3,"In simple terms, working set model refers to a mechanism or principle used in os basics to manage processes or resources."
+Q081,R1,Segmentation fault occurs when a process accesses memory it is not allowed to.
+Q081,R2,"Segmentation fault plays an essential role in memory management, helping the operating system to function efficiently."
+Q081,R3,"In simple terms, segmentation fault refers to a mechanism or principle used in memory management to manage processes or resources."
+Q082,R1,"Memory leak occurs when a program allocates memory but fails to release it, reducing available memory."
+Q082,R2,"Memory leak plays an essential role in memory management, helping the operating system to function efficiently."
+Q082,R3,"In simple terms, memory leak refers to a mechanism or principle used in memory management to manage processes or resources."
+Q083,R1,Only the required segment of a program is loaded into memory when needed.
+Q083,R2,"Dem segmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q083,R3,"In simple terms, dem segmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q084,R1,"Superblock contains metadata about the file system, like size, free blocks, and inode count."
+Q084,R2,"Superblock in file systems plays an essential role in file systems, helping the operating system to function efficiently."
+Q084,R3,"In simple terms, superblock in file systems refers to a mechanism or principle used in file systems to manage processes or resources."
+Q085,R1,"Inode stores metadata about a file, like permissions, ownership, and pointers to data blocks."
+Q085,R2,"Inode plays an essential role in file systems, helping the operating system to function efficiently."
+Q085,R3,"In simple terms, inode refers to a mechanism or principle used in file systems to manage processes or resources."
+Q086,R1,"FAT, NTFS, ext2/ext3/ext4, HFS, APFS, XFS."
+Q086,R2,"What are types of file systems plays an essential role in file systems, helping the operating system to function efficiently."
+Q086,R3,"In simple terms, what are types of file systems refers to a mechanism or principle used in file systems to manage processes or resources."
+Q087,R1,Journaling logs changes before writing to the main file system to prevent corruption after crashes.
+Q087,R2,"Journaling in file systems plays an essential role in file systems, helping the operating system to function efficiently."
+Q087,R3,"In simple terms, journaling in file systems refers to a mechanism or principle used in file systems to manage processes or resources."
+Q088,R1,RAID (Redundant Array of Independent/Inexpensive Disks) combines multiple disks for redundancy and performance.
+Q088,R2,"Raid plays an essential role in os basics, helping the operating system to function efficiently."
+Q088,R3,"In simple terms, raid refers to a mechanism or principle used in os basics to manage processes or resources."
+Q089,R1,"RAID 0, 1, 5, 6, 10 (1+0)."
+Q089,R2,"Name raid levels plays an essential role in os basics, helping the operating system to function efficiently."
+Q089,R3,"In simple terms, name raid levels refers to a mechanism or principle used in os basics to manage processes or resources."
+Q090,R1,Thread pool is a collection of pre-created threads to perform tasks efficiently without creating threads repeatedly.
+Q090,R2,"Thread pool plays an essential role in process management, helping the operating system to function efficiently."
+Q090,R3,"In simple terms, thread pool refers to a mechanism or principle used in process management to manage processes or resources."
+Q091,R1,Real-time process must complete within strict timing constraints.
+Q091,R2,"Real-time process plays an essential role in process management, helping the operating system to function efficiently."
+Q091,R3,"In simple terms, real-time process refers to a mechanism or principle used in process management to manage processes or resources."
+Q092,R1,Synchronous I/O waits for operation completion; asynchronous I/O allows the process to continue execution.
+Q092,R2,"Difference  asynchronous  synchronous i/o plays an essential role in device management, helping the operating system to function efficiently."
+Q092,R3,"In simple terms, difference  asynchronous  synchronous i/o refers to a mechanism or principle used in device management to manage processes or resources."
+Q093,R1,Paging transfers pages between disk and memory; swapping moves entire processes.
+Q093,R2,"Paging vs swapping plays an essential role in memory management, helping the operating system to function efficiently."
+Q093,R3,"In simple terms, paging vs swapping refers to a mechanism or principle used in memory management to manage processes or resources."
+Q094,R1,A kernel module can be dynamically loaded/unloaded without rebooting the OS.
+Q094,R2,"Loadable kernel module plays an essential role in os basics, helping the operating system to function efficiently."
+Q094,R3,"In simple terms, loadable kernel module refers to a mechanism or principle used in os basics to manage processes or resources."
+Q095,R1,A daemon is a background process that runs without user interaction.
+Q095,R2,"Daemon plays an essential role in os basics, helping the operating system to function efficiently."
+Q095,R3,"In simple terms, daemon refers to a mechanism or principle used in os basics to manage processes or resources."
+Q096,R1,Bootstrapping is the process of loading the OS into memory from firmware.
+Q096,R2,"Bootstrapping plays an essential role in os basics, helping the operating system to function efficiently."
+Q096,R3,"In simple terms, bootstrapping refers to a mechanism or principle used in os basics to manage processes or resources."
+Q097,R1,Slab allocation caches memory objects for efficient allocation and deallocation.
+Q097,R2,"Slab allocation in memory management plays an essential role in memory management, helping the operating system to function efficiently."
+Q097,R3,"In simple terms, slab allocation in memory management refers to a mechanism or principle used in memory management to manage processes or resources."
+Q098,R1,"Spinlock is a lock where a process waits in a loop (""spins"") until it acquires the lock."
+Q098,R2,"Spinlock plays an essential role in os basics, helping the operating system to function efficiently."
+Q098,R3,"In simple terms, spinlock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q099,R1,Distributed file system stores and accesses files across multiple machines transparently.
+Q099,R2,"Distributed file system plays an essential role in file systems, helping the operating system to function efficiently."
+Q099,R3,"In simple terms, distributed file system refers to a mechanism or principle used in file systems to manage processes or resources."
+Q100,R1,Kernel panic occurs when the OS detects a fatal error from which it cannot safely recover.
+Q100,R2,"Kernel panic plays an essential role in os basics, helping the operating system to function efficiently."
+Q100,R3,"In simple terms, kernel panic refers to a mechanism or principle used in os basics to manage processes or resources."
+Q101,R1,No direct answer available for nan.
+Q101,R2,"Nan plays an essential role in os basics, helping the operating system to function efficiently."
+Q101,R3,"In simple terms, nan refers to a mechanism or principle used in os basics to manage processes or resources."
+Q102,R1,"Pages are loaded into memory only when referenced, reducing memory usage."
+Q102,R2,"Dem paging plays an essential role in memory management, helping the operating system to function efficiently."
+Q102,R3,"In simple terms, dem paging refers to a mechanism or principle used in memory management to manage processes or resources."
+Q103,R1,Logical address is generated by the CPU; physical address is the actual location in memory.
+Q103,R2,"Difference  logical  physical address plays an essential role in os basics, helping the operating system to function efficiently."
+Q103,R3,"In simple terms, difference  logical  physical address refers to a mechanism or principle used in os basics to manage processes or resources."
+Q104,R1,"Address binding maps logical addresses to physical addresses. It can occur at compile time, load time, or runtime."
+Q104,R2,"Address binding plays an essential role in os basics, helping the operating system to function efficiently."
+Q104,R3,"In simple terms, address binding refers to a mechanism or principle used in os basics to manage processes or resources."
+Q105,R1,Dynamic loading loads a routine into memory only when it is called.
+Q105,R2,"Dynamic loading plays an essential role in os basics, helping the operating system to function efficiently."
+Q105,R3,"In simple terms, dynamic loading refers to a mechanism or principle used in os basics to manage processes or resources."
+Q106,R1,Dynamic linking links library routines at runtime rather than at compile time.
+Q106,R2,"Dynamic linking plays an essential role in os basics, helping the operating system to function efficiently."
+Q106,R3,"In simple terms, dynamic linking refers to a mechanism or principle used in os basics to manage processes or resources."
+Q107,R1,"Race condition occurs when multiple processes access shared data simultaneously, leading to inconsistent results."
+Q107,R2,"Race condition plays an essential role in synchronization, helping the operating system to function efficiently."
+Q107,R3,"In simple terms, race condition refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q108,R1,Mutual exclusion ensures that only one process can access a critical section at a time.
+Q108,R2,"Mutual exclusion plays an essential role in os basics, helping the operating system to function efficiently."
+Q108,R3,"In simple terms, mutual exclusion refers to a mechanism or principle used in os basics to manage processes or resources."
+Q109,R1,Preemptive scheduling allows interruption of processes; non-preemptive waits until a process finishes or blocks.
+Q109,R2,"Difference  preemptive  non-preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q109,R3,"In simple terms, difference  preemptive  non-preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q110,R1,"Processes are divided into queues based on priority or type, each with its own scheduling algorithm."
+Q110,R2,"Multilevel queue scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q110,R3,"In simple terms, multilevel queue scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q111,R1,"Processes can move between queues based on behavior, allowing flexibility and fairness."
+Q111,R2,"Multilevel feedback queue scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q111,R3,"In simple terms, multilevel feedback queue scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q112,R1,Aging gradually increases the priority of waiting processes to prevent starvation.
+Q112,R2,"Aging in cpu scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q112,R3,"In simple terms, aging in cpu scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q113,R1,Internal fragmentation wastes memory inside allocated blocks; external fragmentation occurs when free memory is split into small non-contiguous blocks.
+Q113,R2,"Difference  internal  external fragmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q113,R3,"In simple terms, difference  internal  external fragmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q114,R1,A file descriptor is an integer handle used to access files or I/O streams.
+Q114,R2,"File descriptor plays an essential role in file systems, helping the operating system to function efficiently."
+Q114,R3,"In simple terms, file descriptor refers to a mechanism or principle used in file systems to manage processes or resources."
+Q115,R1,A program is a passive set of instructions; a process is a running instance of a program.
+Q115,R2,"Difference  process  program plays an essential role in process management, helping the operating system to function efficiently."
+Q115,R3,"In simple terms, difference  process  program refers to a mechanism or principle used in process management to manage processes or resources."
+Q116,R1,Cooperative multitasking relies on processes to yield control; preemptive multitasking allows OS to forcibly switch processes.
+Q116,R2,"Difference  cooperative  preemptive multitasking plays an essential role in os basics, helping the operating system to function efficiently."
+Q116,R3,"In simple terms, difference  cooperative  preemptive multitasking refers to a mechanism or principle used in os basics to manage processes or resources."
+Q117,R1,A kernel thread is managed by the OS kernel and has full access to system resources.
+Q117,R2,"Kernel thread plays an essential role in process management, helping the operating system to function efficiently."
+Q117,R3,"In simple terms, kernel thread refers to a mechanism or principle used in process management to manage processes or resources."
+Q118,R1,A user thread is managed in user space without kernel involvement for context switching.
+Q118,R2,"User thread plays an essential role in process management, helping the operating system to function efficiently."
+Q118,R3,"In simple terms, user thread refers to a mechanism or principle used in process management to manage processes or resources."
+Q119,R1,"Efficient CPU utilization, faster execution, better responsiveness, and resource sharing."
+Q119,R2,"What are advantages of multithreading plays an essential role in os basics, helping the operating system to function efficiently."
+Q119,R3,"In simple terms, what are advantages of multithreading refers to a mechanism or principle used in os basics to manage processes or resources."
+Q120,R1,Switching the CPU from one thread to another within the same process or between processes.
+Q120,R2,"Thread context switch plays an essential role in process management, helping the operating system to function efficiently."
+Q120,R3,"In simple terms, thread context switch refers to a mechanism or principle used in process management to manage processes or resources."
+Q121,R1,"PCB stores process information, including state, program counter, CPU registers, memory limits, and I/O status."
+Q121,R2,"Process control block (pcb) plays an essential role in process management, helping the operating system to function efficiently."
+Q121,R3,"In simple terms, process control block (pcb) refers to a mechanism or principle used in process management to manage processes or resources."
+Q122,R1,A segment of code that accesses shared resources and must be executed exclusively.
+Q122,R2,"Critical section plays an essential role in synchronization, helping the operating system to function efficiently."
+Q122,R3,"In simple terms, critical section refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q123,R1,"Disabling interrupts, mutexes, semaphores, monitors."
+Q123,R2,"What are methods to hle critical section problem plays an essential role in synchronization, helping the operating system to function efficiently."
+Q123,R3,"In simple terms, what are methods to hle critical section problem refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q124,R1,No direct answer available for what is peterson����s solution?.
+Q124,R2,"Petersons solution plays an essential role in os basics, helping the operating system to function efficiently."
+Q124,R3,"In simple terms, peterson����s solution refers to a mechanism or principle used in os basics to manage processes or resources."
+Q125,R1,Semaphore with integer value that allows multiple processes to access shared resources simultaneously.
+Q125,R2,"Counting semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q125,R3,"In simple terms, counting semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q126,R1,Binary semaphore allows one process; counting semaphore allows multiple processes.
+Q126,R2,"Difference  counting semaphore  binary semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q126,R3,"In simple terms, difference  counting semaphore  binary semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q127,R1,"Busy waiting occurs when a process continuously checks a condition instead of sleeping, wasting CPU cycles."
+Q127,R2,"Busy waiting plays an essential role in os basics, helping the operating system to function efficiently."
+Q127,R3,"In simple terms, busy waiting refers to a mechanism or principle used in os basics to manage processes or resources."
+Q128,R1,Ensuring at least one necessary condition for deadlock cannot hold.
+Q128,R2,"Deadlock prevention plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q128,R3,"In simple terms, deadlock prevention refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q129,R1,"Dynamically checks resource allocation to avoid unsafe states (e.g., Banker's Algorithm)."
+Q129,R2,"Deadlock avoidance plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q129,R3,"In simple terms, deadlock avoidance refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q130,R1,A deadlock avoidance algorithm that checks if resource allocation leads to a safe state.
+Q130,R2,"Banker's algorithm plays an essential role in os basics, helping the operating system to function efficiently."
+Q130,R3,"In simple terms, banker's algorithm refers to a mechanism or principle used in os basics to manage processes or resources."
+Q131,R1,OS periodically checks for deadlocks and recovers if necessary.
+Q131,R2,"Deadlock detection plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q131,R3,"In simple terms, deadlock detection refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q132,R1,Techniques include terminating processes or preempting resources to resolve deadlocks.
+Q132,R2,"Deadlock recovery plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q132,R3,"In simple terms, deadlock recovery refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q133,R1,Paging divides memory into fixed-size pages to eliminate fragmentation and map virtual memory to physical memory.
+Q133,R2,"Paging plays an essential role in memory management, helping the operating system to function efficiently."
+Q133,R3,"In simple terms, paging refers to a mechanism or principle used in memory management to manage processes or resources."
+Q134,R1,Paging uses fixed-size pages; segmentation uses variable-size logical segments.
+Q134,R2,"Difference  paging  segmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q134,R3,"In simple terms, difference  paging  segmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q135,R1,"A page fault occurs when a program accesses a page not currently in physical memory, triggering loading from disk."
+Q135,R2,"Page fault plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q135,R3,"In simple terms, page fault refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q136,R1,"Pages are loaded into memory only when referenced, reducing memory usage."
+Q136,R2,"Dem paging plays an essential role in memory management, helping the operating system to function efficiently."
+Q136,R3,"In simple terms, dem paging refers to a mechanism or principle used in memory management to manage processes or resources."
+Q137,R1,The set of pages actively used by a process to minimize page faults.
+Q137,R2,"Working set plays an essential role in os basics, helping the operating system to function efficiently."
+Q137,R3,"In simple terms, working set refers to a mechanism or principle used in os basics to manage processes or resources."
+Q138,R1,Thrashing occurs when excessive page swapping reduces system performance due to lack of sufficient memory.
+Q138,R2,"Thrashing plays an essential role in os basics, helping the operating system to function efficiently."
+Q138,R3,"In simple terms, thrashing refers to a mechanism or principle used in os basics to manage processes or resources."
+Q139,R1,Logical memory is generated by CPU; physical memory is actual RAM location.
+Q139,R2,"Difference  logical  physical memory plays an essential role in memory management, helping the operating system to function efficiently."
+Q139,R3,"In simple terms, difference  logical  physical memory refers to a mechanism or principle used in memory management to manage processes or resources."
+Q140,R1,Swap space is disk space used to temporarily hold memory pages that cannot fit in RAM.
+Q140,R2,"Swap space plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q140,R3,"In simple terms, swap space refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q141,R1,Copy-on-write delays copying of shared resources until a modification occurs.
+Q141,R2,"Copy-on-write plays an essential role in os basics, helping the operating system to function efficiently."
+Q141,R3,"In simple terms, copy-on-write refers to a mechanism or principle used in os basics to manage processes or resources."
+Q142,R1,Virtual memory is memory management technique that gives an application the illusion of large continuous memory using disk space.
+Q142,R2,"Virtual memory plays an essential role in memory management, helping the operating system to function efficiently."
+Q142,R3,"In simple terms, virtual memory refers to a mechanism or principle used in memory management to manage processes or resources."
+Q143,R1,Segmentation fault occurs when a process accesses memory it is not allowed to.
+Q143,R2,"Segmentation fault plays an essential role in memory management, helping the operating system to function efficiently."
+Q143,R3,"In simple terms, segmentation fault refers to a mechanism or principle used in memory management to manage processes or resources."
+Q143,R1,"Accessing unauthorized memory, causing a runtime error."
+Q143,R2,"Segmentation fault plays an essential role in memory management, helping the operating system to function efficiently."
+Q143,R3,"In simple terms, segmentation fault refers to a mechanism or principle used in memory management to manage processes or resources."
+Q144,R1,Metadata in a file system that stores information about disk layout and free space.
+Q144,R2,"Superblock plays an essential role in os basics, helping the operating system to function efficiently."
+Q144,R3,"In simple terms, superblock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q145,R1,"Inode stores metadata about a file, like permissions, ownership, and pointers to data blocks."
+Q145,R2,"Inode plays an essential role in file systems, helping the operating system to function efficiently."
+Q145,R3,"In simple terms, inode refers to a mechanism or principle used in file systems to manage processes or resources."
+Q146,R1,"FAT is simpler, less secure; NTFS supports permissions, journaling, and large files."
+Q146,R2,"Difference  fat  ntfs plays an essential role in os basics, helping the operating system to function efficiently."
+Q146,R3,"In simple terms, difference  fat  ntfs refers to a mechanism or principle used in os basics to manage processes or resources."
+Q147,R1,Journaling logs changes before writing to the main file system to prevent corruption after crashes.
+Q147,R2,"Journaling in file systems plays an essential role in file systems, helping the operating system to function efficiently."
+Q147,R3,"In simple terms, journaling in file systems refers to a mechanism or principle used in file systems to manage processes or resources."
+Q148,R1,RAID (Redundant Array of Independent/Inexpensive Disks) combines multiple disks for redundancy and performance.
+Q148,R2,"Raid plays an essential role in os basics, helping the operating system to function efficiently."
+Q148,R3,"In simple terms, raid refers to a mechanism or principle used in os basics to manage processes or resources."
+Q149,R1,"RAID 0, 1, 5, 6, 10."
+Q149,R2,"What are raid levels plays an essential role in os basics, helping the operating system to function efficiently."
+Q149,R3,"In simple terms, what are raid levels refers to a mechanism or principle used in os basics to manage processes or resources."
+Q150,R1,Software that allows the OS to communicate with hardware devices.
+Q150,R2,"Device driver plays an essential role in device management, helping the operating system to function efficiently."
+Q150,R3,"In simple terms, device driver refers to a mechanism or principle used in device management to manage processes or resources."
+Q151,R1,Temporarily storing I/O data in memory to improve performance.
+Q151,R2,"I/o buffering plays an essential role in device management, helping the operating system to function efficiently."
+Q151,R3,"In simple terms, i/o buffering refers to a mechanism or principle used in device management to manage processes or resources."
+Q152,R1,Block devices transfer data in fixed-size blocks; character devices transfer byte by byte.
+Q152,R2,"Difference  block  character devices plays an essential role in os basics, helping the operating system to function efficiently."
+Q152,R3,"In simple terms, difference  block  character devices refers to a mechanism or principle used in os basics to manage processes or resources."
+Q153,R1,DMA allows devices to access memory directly without CPU involvement.
+Q153,R2,"Direct memory access (dma) plays an essential role in memory management, helping the operating system to function efficiently."
+Q153,R3,"In simple terms, direct memory access (dma) refers to a mechanism or principle used in memory management to manage processes or resources."
+Q154,R1,"Holding data temporarily for devices to process at their own speed (e.g., print spooler)."
+Q154,R2,"Spooling plays an essential role in os basics, helping the operating system to function efficiently."
+Q154,R3,"In simple terms, spooling refers to a mechanism or principle used in os basics to manage processes or resources."
+Q155,R1,A bootloader is a program that loads the operating system into memory during system startup.
+Q155,R2,"Bootloader plays an essential role in os basics, helping the operating system to function efficiently."
+Q155,R3,"In simple terms, bootloader refers to a mechanism or principle used in os basics to manage processes or resources."
+Q156,R1,Interface for programs to request OS services.
+Q156,R2,"System call plays an essential role in system calls, helping the operating system to function efficiently."
+Q156,R3,"In simple terms, system call refers to a mechanism or principle used in system calls to manage processes or resources."
+Q157,R1,"Process control, file management, device management, information maintenance, communication."
+Q157,R2,"What are types of system calls plays an essential role in os basics, helping the operating system to function efficiently."
+Q157,R3,"In simple terms, what are types of system calls refers to a mechanism or principle used in os basics to manage processes or resources."
+Q158,R1,Creates a new process by duplicating the calling process.
+Q158,R2,"Fork() plays an essential role in system calls, helping the operating system to function efficiently."
+Q158,R3,"In simple terms, fork() refers to a mechanism or principle used in system calls to manage processes or resources."
+Q159,R1,Replaces the current process image with a new program.
+Q159,R2,"Exec() plays an essential role in system calls, helping the operating system to function efficiently."
+Q159,R3,"In simple terms, exec() refers to a mechanism or principle used in system calls to manage processes or resources."
+Q160,R1,Completed process that still occupies process table entry.
+Q160,R2,"Zombie process plays an essential role in process management, helping the operating system to function efficiently."
+Q160,R3,"In simple terms, zombie process refers to a mechanism or principle used in process management to manage processes or resources."
+Q161,R1,Process whose parent has terminated; adopted by init process.
+Q161,R2,"Orphprocess plays an essential role in process management, helping the operating system to function efficiently."
+Q161,R3,"In simple terms, orphprocess refers to a mechanism or principle used in process management to manage processes or resources."
+Q161,R1,Process whose parent has terminated; adopted by init process.
+Q161,R2,"Orphprocess plays an essential role in process management, helping the operating system to function efficiently."
+Q161,R3,"In simple terms, orphprocess refers to a mechanism or principle used in process management to manage processes or resources."
+Q161,R1,Process whose parent has terminated; adopted by init process.
+Q161,R2,"Orphprocess plays an essential role in process management, helping the operating system to function efficiently."
+Q161,R3,"In simple terms, orphprocess refers to a mechanism or principle used in process management to manage processes or resources."
+Q162,R1,"Init is the first process started by the kernel at boot, responsible for starting system services."
+Q162,R2,"Init process plays an essential role in process management, helping the operating system to function efficiently."
+Q162,R3,"In simple terms, init process refers to a mechanism or principle used in process management to manage processes or resources."
+Q163,R1,"New, Ready, Running, Waiting, Terminated."
+Q163,R2,"What are process states plays an essential role in process management, helping the operating system to function efficiently."
+Q163,R3,"In simple terms, what are process states refers to a mechanism or principle used in process management to manage processes or resources."
+Q164,R1,Holds processes ready to execute in main memory.
+Q164,R2,"Ready queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q164,R3,"In simple terms, ready queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q165,R1,Holds processes waiting for I/O or events.
+Q165,R2,"Waiting queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q165,R3,"In simple terms, waiting queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q166,R1,I/O scheduling determines the order in which I/O operations are processed to improve efficiency.
+Q166,R2,"I/o scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q166,R3,"In simple terms, i/o scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q167,R1,"FCFS, SSTF (Shortest Seek Time First), SCAN, C-SCAN, LOOK, C-LOOK."
+Q167,R2,"Name i/o scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q167,R3,"In simple terms, name i/o scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q168,R1,Synchronous waits for completion; asynchronous allows concurrent execution.
+Q168,R2,"Difference  synchronous  asynchronous i/o plays an essential role in device management, helping the operating system to function efficiently."
+Q168,R3,"In simple terms, difference  synchronous  asynchronous i/o refers to a mechanism or principle used in device management to manage processes or resources."
+Q169,R1,"OS designed for predictable, time-critical operations."
+Q169,R2,"Real-time os (rtos) plays an essential role in os basics, helping the operating system to function efficiently."
+Q169,R3,"In simple terms, real-time os (rtos) refers to a mechanism or principle used in os basics to manage processes or resources."
+Q170,R1,Hard RTOS guarantees deadlines; soft RTOS is best-effort.
+Q170,R2,"Difference  hard  soft rtos plays an essential role in os basics, helping the operating system to function efficiently."
+Q170,R3,"In simple terms, difference  hard  soft rtos refers to a mechanism or principle used in os basics to manage processes or resources."
+Q171,R1,Manages resources across multiple networked computers as a single system.
+Q171,R2,"Distributed os plays an essential role in os basics, helping the operating system to function efficiently."
+Q171,R3,"In simple terms, distributed os refers to a mechanism or principle used in os basics to manage processes or resources."
+Q172,R1,Provides network services like file sharing and communication.
+Q172,R2,"Network os plays an essential role in os basics, helping the operating system to function efficiently."
+Q172,R3,"In simple terms, network os refers to a mechanism or principle used in os basics to manage processes or resources."
+Q173,R1,"Microkernel contains minimal core services like communication, scheduling, and memory management."
+Q173,R2,"Microkernel plays an essential role in os basics, helping the operating system to function efficiently."
+Q173,R3,"In simple terms, microkernel refers to a mechanism or principle used in os basics to manage processes or resources."
+Q174,R1,Monolithic kernel contains all OS services in one large block of code running in kernel mode.
+Q174,R2,"Monolithic kernel plays an essential role in os basics, helping the operating system to function efficiently."
+Q174,R3,"In simple terms, monolithic kernel refers to a mechanism or principle used in os basics to manage processes or resources."
+Q175,R1,Hybrid kernel combines features of microkernel and monolithic kernel for performance and modularity.
+Q175,R2,"Hybrid kernel plays an essential role in os basics, helping the operating system to function efficiently."
+Q175,R3,"In simple terms, hybrid kernel refers to a mechanism or principle used in os basics to manage processes or resources."
+Q176,R1,Loadable component that extends kernel functionality.
+Q176,R2,"Kernel module plays an essential role in os basics, helping the operating system to function efficiently."
+Q176,R3,"In simple terms, kernel module refers to a mechanism or principle used in os basics to manage processes or resources."
+Q177,R1,Background process running without direct user interaction.
+Q177,R2,"Daemon process plays an essential role in process management, helping the operating system to function efficiently."
+Q177,R3,"In simple terms, daemon process refers to a mechanism or principle used in process management to manage processes or resources."
+Q178,R1,Bootstrapping is the process of loading the OS into memory from firmware.
+Q178,R2,"Bootstrapping plays an essential role in os basics, helping the operating system to function efficiently."
+Q178,R3,"In simple terms, bootstrapping refers to a mechanism or principle used in os basics to manage processes or resources."
+Q179,R1,Memory management technique that caches frequently used objects.
+Q179,R2,"Slab allocation plays an essential role in memory management, helping the operating system to function efficiently."
+Q179,R3,"In simple terms, slab allocation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q180,R1,Lock where a process waits actively in a loop until resource is free.
+Q180,R2,"Spinlock plays an essential role in os basics, helping the operating system to function efficiently."
+Q180,R3,"In simple terms, spinlock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q181,R1,Files stored across multiple machines accessible transparently.
+Q181,R2,"Distributed file system plays an essential role in file systems, helping the operating system to function efficiently."
+Q181,R3,"In simple terms, distributed file system refers to a mechanism or principle used in file systems to manage processes or resources."
+Q182,R1,Kernel panic occurs when the OS detects a fatal error from which it cannot safely recover.
+Q182,R2,"Kernel panic plays an essential role in os basics, helping the operating system to function efficiently."
+Q182,R3,"In simple terms, kernel panic refers to a mechanism or principle used in os basics to manage processes or resources."
+Q183,R1,Kernel code that can be loaded/unloaded dynamically without reboot.
+Q183,R2,"Loadable kernel module (lkm) plays an essential role in os basics, helping the operating system to function efficiently."
+Q183,R3,"In simple terms, loadable kernel module (lkm) refers to a mechanism or principle used in os basics to manage processes or resources."
+Q184,R1,Allowing kernel tasks to be interrupted for higher-priority tasks.
+Q184,R2,"Kernel preemption plays an essential role in os basics, helping the operating system to function efficiently."
+Q184,R3,"In simple terms, kernel preemption refers to a mechanism or principle used in os basics to manage processes or resources."
+Q185,R1,Maps device memory into process address space for direct access.
+Q185,R2,"Memory-mapped i/o plays an essential role in memory management, helping the operating system to function efficiently."
+Q185,R3,"In simple terms, memory-mapped i/o refers to a mechanism or principle used in memory management to manage processes or resources."
+Q186,R1,Data structure mapping virtual addresses to physical addresses.
+Q186,R2,"Page table plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q186,R3,"In simple terms, page table refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q187,R1,Single page table mapping physical frames to virtual addresses to save memory.
+Q187,R2,"Inverted page table plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q187,R3,"In simple terms, inverted page table refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q188,R1,Cache that stores recent virtual-to-physical address mappings.
+Q188,R2,"Tlb (translation lookaside buffer) plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q188,R3,"In simple terms, tlb (translation lookaside buffer) refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q189,R1,Segmentation fault occurs when a process accesses memory it is not allowed to.
+Q189,R2,"Segmentation fault plays an essential role in memory management, helping the operating system to function efficiently."
+Q189,R3,"In simple terms, segmentation fault refers to a mechanism or principle used in memory management to manage processes or resources."
+Q190,R1,Only the required segment of a program is loaded into memory when needed.
+Q190,R2,"Dem segmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q190,R3,"In simple terms, dem segmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q191,R1,Metadata in a file system that stores information about disk layout and free space.
+Q191,R2,"Superblock plays an essential role in os basics, helping the operating system to function efficiently."
+Q191,R3,"In simple terms, superblock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q192,R1,Logs updates before writing to disk to prevent corruption.
+Q192,R2,"Journaling plays an essential role in os basics, helping the operating system to function efficiently."
+Q192,R3,"In simple terms, journaling refers to a mechanism or principle used in os basics to manage processes or resources."
+Q193,R1,"File Allocation Table, a simple file system format."
+Q193,R2,"Fat plays an essential role in os basics, helping the operating system to function efficiently."
+Q193,R3,"In simple terms, fat refers to a mechanism or principle used in os basics to manage processes or resources."
+Q194,R1,"New Technology File System with security, journaling, and large file support."
+Q194,R2,"Ntfs plays an essential role in os basics, helping the operating system to function efficiently."
+Q194,R3,"In simple terms, ntfs refers to a mechanism or principle used in os basics to manage processes or resources."
+Q195,R1,"Metadata structure storing file info like permissions, ownership, and pointers."
+Q195,R2,"Inode plays an essential role in file systems, helping the operating system to function efficiently."
+Q195,R3,"In simple terms, inode refers to a mechanism or principle used in file systems to manage processes or resources."
+Q196,R1,RAID (Redundant Array of Independent/Inexpensive Disks) combines multiple disks for redundancy and performance.
+Q196,R2,"Raid plays an essential role in os basics, helping the operating system to function efficiently."
+Q196,R3,"In simple terms, raid refers to a mechanism or principle used in os basics to manage processes or resources."
+Q197,R1,Direct Memory Access allows devices to read/write memory directly.
+Q197,R2,"Dma plays an essential role in device management, helping the operating system to function efficiently."
+Q197,R3,"In simple terms, dma refers to a mechanism or principle used in device management to manage processes or resources."
+Q198,R1,Unidirectional communication channel between processes.
+Q198,R2,"Pipe plays an essential role in os basics, helping the operating system to function efficiently."
+Q198,R3,"In simple terms, pipe refers to a mechanism or principle used in os basics to manage processes or resources."
+Q199,R1,Endpoint for bidirectional network communication.
+Q199,R2,"Socket plays an essential role in os basics, helping the operating system to function efficiently."
+Q199,R3,"In simple terms, socket refers to a mechanism or principle used in os basics to manage processes or resources."
+Q200,R1,"Mechanisms for processes to exchange data (shared memory, message passing)."
+Q200,R2,"Ipc (inter-process communication) plays an essential role in process management, helping the operating system to function efficiently."
+Q200,R3,"In simple terms, ipc (inter-process communication) refers to a mechanism or principle used in process management to manage processes or resources."
+Q201,R1,"Message passing allows processes to communicate by sending and receiving messages, suitable for distributed systems."
+Q201,R2,"Message passing plays an essential role in os basics, helping the operating system to function efficiently."
+Q201,R3,"In simple terms, message passing refers to a mechanism or principle used in os basics to manage processes or resources."
+Q202,R1,Shared memory allows multiple processes to access the same memory region for faster communication.
+Q202,R2,"Shared memory in ipc plays an essential role in memory management, helping the operating system to function efficiently."
+Q202,R3,"In simple terms, shared memory in ipc refers to a mechanism or principle used in memory management to manage processes or resources."
+Q203,R1,Message queue is an IPC mechanism where messages are stored in a queue for processes to read.
+Q203,R2,"Message queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q203,R3,"In simple terms, message queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q204,R1,A semaphore is a synchronization tool using counters to control access to shared resources.
+Q204,R2,"Semaphore in os plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q204,R3,"In simple terms, semaphore in os refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q205,R1,Counting semaphore allows multiple accesses; binary semaphore allows one process at a time.
+Q205,R2,"Difference  counting  binary semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q205,R3,"In simple terms, difference  counting  binary semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q206,R1,Mutex (mutual exclusion) is a locking mechanism ensuring that only one thread accesses a resource at a time.
+Q206,R2,"Mutex plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q206,R3,"In simple terms, mutex refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q207,R1,"Mutex is for mutual exclusion with ownership, semaphore can allow multiple processes and has no ownership."
+Q207,R2,"Difference  mutex  semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q207,R3,"In simple terms, difference  mutex  semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q208,R1,Deadlock occurs when processes are waiting indefinitely for resources held by each other.
+Q208,R2,"Deadlock plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q208,R3,"In simple terms, deadlock refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q209,R1,"Mutual exclusion, hold and wait, no preemption, circular wait."
+Q209,R2,"What are necessary conditions for deadlock plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q209,R3,"In simple terms, what are necessary conditions for deadlock refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q210,R1,Ensuring at least one of the necessary conditions for deadlock cannot occur.
+Q210,R2,"Deadlock prevention plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q210,R3,"In simple terms, deadlock prevention refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q211,R1,"Dynamically checks resource allocation to avoid unsafe states (e.g., Banker's Algorithm)."
+Q211,R2,"Deadlock avoidance plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q211,R3,"In simple terms, deadlock avoidance refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q212,R1,OS periodically checks for deadlocks and recovers if necessary.
+Q212,R2,"Deadlock detection plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q212,R3,"In simple terms, deadlock detection refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q213,R1,Techniques include terminating processes or preempting resources to resolve deadlocks.
+Q213,R2,"Deadlock recovery plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q213,R3,"In simple terms, deadlock recovery refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q214,R1,Coordination of processes to ensure correct execution when accessing shared resources.
+Q214,R2,"Process synchronization plays an essential role in process management, helping the operating system to function efficiently."
+Q214,R3,"In simple terms, process synchronization refers to a mechanism or principle used in process management to manage processes or resources."
+Q215,R1,Ensuring that only one process accesses shared resources at a time to prevent conflicts.
+Q215,R2,"Critical section problem plays an essential role in synchronization, helping the operating system to function efficiently."
+Q215,R3,"In simple terms, critical section problem refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q216,R1,"Busy waiting occurs when a process continuously checks a condition instead of sleeping, wasting CPU cycles."
+Q216,R2,"Busy waiting plays an essential role in os basics, helping the operating system to function efficiently."
+Q216,R3,"In simple terms, busy waiting refers to a mechanism or principle used in os basics to manage processes or resources."
+Q217,R1,No direct answer available for what is petersons solution?.
+Q217,R2,"Petersons solution plays an essential role in os basics, helping the operating system to function efficiently."
+Q217,R3,"In simple terms, petersons solution refers to a mechanism or principle used in os basics to manage processes or resources."
+Q218,R1,Lock where a process waits actively in a loop until resource is free.
+Q218,R2,"Spinlock plays an essential role in os basics, helping the operating system to function efficiently."
+Q218,R3,"In simple terms, spinlock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q219,R1,A kernel thread is managed by the OS kernel and has full access to system resources.
+Q219,R2,"Kernel thread plays an essential role in process management, helping the operating system to function efficiently."
+Q219,R3,"In simple terms, kernel thread refers to a mechanism or principle used in process management to manage processes or resources."
+Q220,R1,A user thread is managed in user space without kernel involvement for context switching.
+Q220,R2,"User thread plays an essential role in process management, helping the operating system to function efficiently."
+Q220,R3,"In simple terms, user thread refers to a mechanism or principle used in process management to manage processes or resources."
+Q221,R1,"Faster execution, better CPU utilization, responsiveness, and resource sharing."
+Q221,R2,"What are advantages of multithreading plays an essential role in os basics, helping the operating system to function efficiently."
+Q221,R3,"In simple terms, what are advantages of multithreading refers to a mechanism or principle used in os basics to manage processes or resources."
+Q222,R1,Switching the CPU from one thread to another within the same or different processes.
+Q222,R2,"Thread context switch plays an essential role in process management, helping the operating system to function efficiently."
+Q222,R3,"In simple terms, thread context switch refers to a mechanism or principle used in process management to manage processes or resources."
+Q223,R1,"PCB stores information about process state, program counter, registers, memory, and I/O."
+Q223,R2,"Process control block (pcb) plays an essential role in process management, helping the operating system to function efficiently."
+Q223,R3,"In simple terms, process control block (pcb) refers to a mechanism or principle used in process management to manage processes or resources."
+Q224,R1,"New, Ready, Running, Waiting (Blocked), Terminated."
+Q224,R2,"What are states of process plays an essential role in process management, helping the operating system to function efficiently."
+Q224,R3,"In simple terms, what are states of process refers to a mechanism or principle used in process management to manage processes or resources."
+Q225,R1,Ready queue holds all processes in main memory that are ready to execute.
+Q225,R2,"Ready queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q225,R3,"In simple terms, ready queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q226,R1,Waiting queue holds processes waiting for I/O or other events.
+Q226,R2,"Waiting queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q226,R3,"In simple terms, waiting queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q227,R1,Method by which OS decides the order of process execution to optimize performance.
+Q227,R2,"Cpu scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q227,R3,"In simple terms, cpu scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q228,R1,"FCFS, SJF, Priority, Round Robin, Multilevel Queue, Multilevel Feedback Queue."
+Q228,R2,"Name cpu scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q228,R3,"In simple terms, name cpu scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q229,R1,First-Come-First-Serve schedules processes in arrival order.
+Q229,R2,"Fcfs scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q229,R3,"In simple terms, fcfs scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q230,R1,Shortest Job First schedules the process with the shortest execution time next.
+Q230,R2,"Sjf scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q230,R3,"In simple terms, sjf scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q231,R1,Preemptive scheduling allows a running process to be interrupted and replaced by a higher-priority process.
+Q231,R2,"Preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q231,R3,"In simple terms, preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q232,R1,Non-preemptive scheduling does not interrupt a running process until it finishes or voluntarily yields CPU.
+Q232,R2,"Non-preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q232,R3,"In simple terms, non-preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q233,R1,"Round-robin scheduling assigns fixed time slices to processes in cyclic order, ensuring fairness."
+Q233,R2,"Round-robin scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q233,R3,"In simple terms, round-robin scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q234,R1,Priority scheduling runs the process with the highest priority next.
+Q234,R2,"Priority scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q234,R3,"In simple terms, priority scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q235,R1,Low-priority processes never get CPU due to constant high-priority process arrival.
+Q235,R2,"Starvation plays an essential role in os basics, helping the operating system to function efficiently."
+Q235,R3,"In simple terms, starvation refers to a mechanism or principle used in os basics to manage processes or resources."
+Q236,R1,Aging gradually increases the priority of waiting processes to prevent starvation.
+Q236,R2,"Aging in cpu scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q236,R3,"In simple terms, aging in cpu scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q237,R1,"Processes are divided into queues based on priority or type, each with its own scheduling algorithm."
+Q237,R2,"Multilevel queue scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q237,R3,"In simple terms, multilevel queue scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q238,R1,"Processes can move between queues based on behavior, allowing flexibility and fairness."
+Q238,R2,"Multilevel feedback queue scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q238,R3,"In simple terms, multilevel feedback queue scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q239,R1,"A file system manages how data is stored, organized, and accessed on storage devices."
+Q239,R2,"File system plays an essential role in file systems, helping the operating system to function efficiently."
+Q239,R3,"In simple terms, file system refers to a mechanism or principle used in file systems to manage processes or resources."
+Q240,R1,"Sequential access, direct (random) access, indexed access."
+Q240,R2,"What are file access methods plays an essential role in file systems, helping the operating system to function efficiently."
+Q240,R3,"In simple terms, what are file access methods refers to a mechanism or principle used in file systems to manage processes or resources."
+Q241,R1,VFS is an abstraction layer that allows the OS to support multiple types of file systems in a uniform way.
+Q241,R2,"Virtual file system (vfs) plays an essential role in file systems, helping the operating system to function efficiently."
+Q241,R3,"In simple terms, virtual file system (vfs) refers to a mechanism or principle used in file systems to manage processes or resources."
+Q242,R1,Fragmentation occurs when memory or disk space is used inefficiently. Types: internal and external fragmentation.
+Q242,R2,"Fragmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q242,R3,"In simple terms, fragmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q243,R1,Combining free memory spaces into larger contiguous blocks to reduce external fragmentation.
+Q243,R2,"Compaction plays an essential role in os basics, helping the operating system to function efficiently."
+Q243,R3,"In simple terms, compaction refers to a mechanism or principle used in os basics to manage processes or resources."
+Q244,R1,Swapping moves processes between main memory and secondary storage to free memory for other processes.
+Q244,R2,"Swapping plays an essential role in os basics, helping the operating system to function efficiently."
+Q244,R3,"In simple terms, swapping refers to a mechanism or principle used in os basics to manage processes or resources."
+Q245,R1,"Cache is small, fast memory storing frequently accessed data; virtual memory extends RAM using disk."
+Q245,R2,"Difference  cache  virtual memory plays an essential role in memory management, helping the operating system to function efficiently."
+Q245,R3,"In simple terms, difference  cache  virtual memory refers to a mechanism or principle used in memory management to manage processes or resources."
+Q246,R1,Program that loads the OS into memory during startup.
+Q246,R2,"Bootloader plays an essential role in os basics, helping the operating system to function efficiently."
+Q246,R3,"In simple terms, bootloader refers to a mechanism or principle used in os basics to manage processes or resources."
+Q247,R1,Interface for programs to request OS services.
+Q247,R2,"System call plays an essential role in system calls, helping the operating system to function efficiently."
+Q247,R3,"In simple terms, system call refers to a mechanism or principle used in system calls to manage processes or resources."
+Q248,R1,"open(), read(), write(), fork(), exec(), wait(), exit()."
+Q248,R2,"Examples of system calls plays an essential role in os basics, helping the operating system to function efficiently."
+Q248,R3,"In simple terms, examples of system calls refers to a mechanism or principle used in os basics to manage processes or resources."
+Q249,R1,User mode has restricted access; kernel mode has full hardware access.
+Q249,R2,"Difference  user mode  kernel mode plays an essential role in os basics, helping the operating system to function efficiently."
+Q249,R3,"In simple terms, difference  user mode  kernel mode refers to a mechanism or principle used in os basics to manage processes or resources."
+Q250,R1,Creates a new process by duplicating the calling process.
+Q250,R2,"Fork() plays an essential role in system calls, helping the operating system to function efficiently."
+Q250,R3,"In simple terms, fork() refers to a mechanism or principle used in system calls to manage processes or resources."
+Q251,R1,Replaces the current process image with a new program.
+Q251,R2,"Exec() plays an essential role in system calls, helping the operating system to function efficiently."
+Q251,R3,"In simple terms, exec() refers to a mechanism or principle used in system calls to manage processes or resources."
+Q252,R1,A zombie process has completed execution but still has an entry in the process table to store exit status.
+Q252,R2,"Zombie process plays an essential role in process management, helping the operating system to function efficiently."
+Q252,R3,"In simple terms, zombie process refers to a mechanism or principle used in process management to manage processes or resources."
+Q253,R1,"An orphan processs parent terminates before it, and it is adopted by the init process."
+Q253,R2,"Orphprocess plays an essential role in process management, helping the operating system to function efficiently."
+Q253,R3,"In simple terms, orphprocess refers to a mechanism or principle used in process management to manage processes or resources."
+Q254,R1,"Init is the first process started by the kernel at boot, responsible for starting system services."
+Q254,R2,"Init process plays an essential role in process management, helping the operating system to function efficiently."
+Q254,R3,"In simple terms, init process refers to a mechanism or principle used in process management to manage processes or resources."
+Q255,R1,I/O scheduling determines the order in which I/O operations are processed to improve efficiency.
+Q255,R2,"I/o scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q255,R3,"In simple terms, i/o scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q256,R1,"FCFS, SSTF (Shortest Seek Time First), SCAN, C-SCAN, LOOK, C-LOOK."
+Q256,R2,"Name i/o scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q256,R3,"In simple terms, name i/o scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q257,R1,Process waits for I/O operation completion.
+Q257,R2,"Synchronous i/o plays an essential role in device management, helping the operating system to function efficiently."
+Q257,R3,"In simple terms, synchronous i/o refers to a mechanism or principle used in device management to manage processes or resources."
+Q258,R1,Process continues execution while I/O operation happens.
+Q258,R2,"Asynchronous i/o plays an essential role in device management, helping the operating system to function efficiently."
+Q258,R3,"In simple terms, asynchronous i/o refers to a mechanism or principle used in device management to manage processes or resources."
+Q259,R1,"OS designed for predictable, time-critical task execution."
+Q259,R2,"Real-time operating system (rtos) plays an essential role in os basics, helping the operating system to function efficiently."
+Q259,R3,"In simple terms, real-time operating system (rtos) refers to a mechanism or principle used in os basics to manage processes or resources."
+Q260,R1,Hard RTOS guarantees deadlines; soft RTOS is best-effort.
+Q260,R2,"Difference  hard  soft rtos plays an essential role in os basics, helping the operating system to function efficiently."
+Q260,R3,"In simple terms, difference  hard  soft rtos refers to a mechanism or principle used in os basics to manage processes or resources."
+Q261,R1,Manages resources and processes across multiple machines as one system.
+Q261,R2,"Distributed operating system plays an essential role in os basics, helping the operating system to function efficiently."
+Q261,R3,"In simple terms, distributed operating system refers to a mechanism or principle used in os basics to manage processes or resources."
+Q262,R1,Provides network services like file sharing and communication.
+Q262,R2,"Network operating system (nos) plays an essential role in os basics, helping the operating system to function efficiently."
+Q262,R3,"In simple terms, network operating system (nos) refers to a mechanism or principle used in os basics to manage processes or resources."
+Q263,R1,"In a monolithic kernel, all OS services run in kernel mode, while in a microkernel, only essential services run in the kernel and the rest run in user space."
+Q263,R2,"A monolithic kernel is large and fast, whereas a microkernel is small and slower due to more communication between user and kernel space."
+Q263,R3,"A monolithic kernel is less secure because everything runs in kernel space; a microkernel is more secure due to modular design and isolation."
+Q264,R1,Combines microkernel modularity with monolithic performance.
+Q264,R2,"Hybrid kernel plays an essential role in os basics, helping the operating system to function efficiently."
+Q264,R3,"In simple terms, hybrid kernel refers to a mechanism or principle used in os basics to manage processes or resources."
+Q265,R1,Kernel component that can be loaded/unloaded dynamically.
+Q265,R2,"Loadable kernel module (lkm) plays an essential role in os basics, helping the operating system to function efficiently."
+Q265,R3,"In simple terms, loadable kernel module (lkm) refers to a mechanism or principle used in os basics to manage processes or resources."
+Q266,R1,Background process running without direct user interaction.
+Q266,R2,"Daemon process plays an essential role in process management, helping the operating system to function efficiently."
+Q266,R3,"In simple terms, daemon process refers to a mechanism or principle used in process management to manage processes or resources."
+Q267,R1,Bootstrapping is the process of loading the OS into memory from firmware.
+Q267,R2,"Bootstrapping plays an essential role in os basics, helping the operating system to function efficiently."
+Q267,R3,"In simple terms, bootstrapping refers to a mechanism or principle used in os basics to manage processes or resources."
+Q268,R1,Memory management technique that caches frequently used objects.
+Q268,R2,"Slab allocation plays an essential role in memory management, helping the operating system to function efficiently."
+Q268,R3,"In simple terms, slab allocation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q269,R1,Lock where a process waits actively in a loop until resource is free.
+Q269,R2,"Spinlock plays an essential role in os basics, helping the operating system to function efficiently."
+Q270,R1,Files stored across multiple machines accessible transparently.
+Q270,R2,"Distributed file system plays an essential role in file systems, helping the operating system to function efficiently."
+Q270,R3,"In simple terms, distributed file system refers to a mechanism or principle used in file systems to manage processes or resources."
+Q271,R1,Kernel panic occurs when the OS detects a fatal error from which it cannot safely recover.
+Q271,R2,"Kernel panic plays an essential role in os basics, helping the operating system to function efficiently."
+Q271,R3,"In simple terms, kernel panic refers to a mechanism or principle used in os basics to manage processes or resources."
+Q272,R1,Maps device memory into process address space for direct access.
+Q272,R2,"Memory-mapped i/o plays an essential role in memory management, helping the operating system to function efficiently."
+Q272,R3,"In simple terms, memory-mapped i/o refers to a mechanism or principle used in memory management to manage processes or resources."
+Q273,R1,Data structure mapping virtual addresses to physical addresses.
+Q273,R2,"Page table plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q273,R3,"In simple terms, page table refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q274,R1,Single page table mapping physical frames to virtual addresses to save memory.
+Q274,R2,"Inverted page table plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q274,R3,"In simple terms, inverted page table refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q275,R1,"Translation Lookaside Buffer, caches recent virtual-to-physical address mappings."
+Q275,R2,"Tlb plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q275,R3,"In simple terms, tlb refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q276,R1,Segmentation fault occurs when a process accesses memory it is not allowed to.
+Q276,R2,"Segmentation fault plays an essential role in memory management, helping the operating system to function efficiently."
+Q276,R3,"In simple terms, segmentation fault refers to a mechanism or principle used in memory management to manage processes or resources."
+Q277,R1,Only the required segment of a program is loaded into memory when needed.
+Q277,R2,"Dem segmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q277,R3,"In simple terms, dem segmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q278,R1,Metadata in a file system that stores information about disk layout and free space.
+Q278,R2,"Superblock plays an essential role in os basics, helping the operating system to function efficiently."
+Q278,R3,"In simple terms, superblock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q279,R1,Logs updates before writing to disk to prevent corruption.
+Q279,R2,"Journaling plays an essential role in os basics, helping the operating system to function efficiently."
+Q279,R3,"In simple terms, journaling refers to a mechanism or principle used in os basics to manage processes or resources."
+Q280,R1,"File Allocation Table, a simple file system format."
+Q280,R2,"Fat plays an essential role in os basics, helping the operating system to function efficiently."
+Q280,R3,"In simple terms, fat refers to a mechanism or principle used in os basics to manage processes or resources."
+Q281,R1,"New Technology File System with security, journaling, and large file support."
+Q281,R2,"Ntfs plays an essential role in os basics, helping the operating system to function efficiently."
+Q281,R3,"In simple terms, ntfs refers to a mechanism or principle used in os basics to manage processes or resources."
+Q282,R1,"Metadata structure storing file info like permissions, ownership, and pointers."
+Q282,R2,"Inode plays an essential role in file systems, helping the operating system to function efficiently."
+Q282,R3,"In simple terms, inode refers to a mechanism or principle used in file systems to manage processes or resources."
+Q283,R1,RAID (Redundant Array of Independent/Inexpensive Disks) combines multiple disks for redundancy and performance.
+Q283,R2,"Raid plays an essential role in os basics, helping the operating system to function efficiently."
+Q283,R3,"In simple terms, raid refers to a mechanism or principle used in os basics to manage processes or resources."
+Q284,R1,"RAID 0, 1, 5, 6, 10."
+Q284,R2,"What are raid levels plays an essential role in os basics, helping the operating system to function efficiently."
+Q284,R3,"In simple terms, what are raid levels refers to a mechanism or principle used in os basics to manage processes or resources."
+Q285,R1,Direct Memory Access allows devices to read/write memory directly.
+Q285,R2,"Dma plays an essential role in device management, helping the operating system to function efficiently."
+Q285,R3,"In simple terms, dma refers to a mechanism or principle used in device management to manage processes or resources."
+Q286,R1,Unidirectional communication channel between processes.
+Q286,R2,"Pipe plays an essential role in os basics, helping the operating system to function efficiently."
+Q286,R3,"In simple terms, pipe refers to a mechanism or principle used in os basics to manage processes or resources."
+Q287,R1,Endpoint for bidirectional network communication.
+Q287,R2,"Socket plays an essential role in os basics, helping the operating system to function efficiently."
+Q287,R3,"In simple terms, socket refers to a mechanism or principle used in os basics to manage processes or resources."
+Q288,R1,"Mechanisms for inter-process communication (shared memory, message passing)."
+Q288,R2,"Ipc plays an essential role in os basics, helping the operating system to function efficiently."
+Q288,R3,"In simple terms, ipc refers to a mechanism or principle used in os basics to manage processes or resources."
+Q289,R1,Shared memory allows multiple processes to access the same memory region for faster communication.
+Q289,R2,"Shared memory in ipc plays an essential role in memory management, helping the operating system to function efficiently."
+Q289,R3,"In simple terms, shared memory in ipc refers to a mechanism or principle used in memory management to manage processes or resources."
+Q290,R1,Message queue is an IPC mechanism where messages are stored in a queue for processes to read.
+Q290,R2,"Message queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q290,R3,"In simple terms, message queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q291,R1,Synchronization tool using counters to control access.
+Q291,R2,"Semaphore in os plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q291,R3,"In simple terms, semaphore in os refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q292,R1,Counting allows multiple accesses; binary allows single access.
+Q292,R2,"Difference  counting  binary semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q292,R3,"In simple terms, difference  counting  binary semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q293,R1,Mutual exclusion lock for one process/thread access at a time.
+Q293,R2,"Mutex plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q293,R3,"In simple terms, mutex refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q294,R1,Mutex has ownership; semaphore may allow multiple processes and no ownership.
+Q294,R2,"Difference  mutex  semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q294,R3,"In simple terms, difference  mutex  semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q295,R1,Deadlock occurs when processes are waiting indefinitely for resources held by each other.
+Q295,R2,"Deadlock plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q295,R3,"In simple terms, deadlock refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q296,R1,"Mutual exclusion, hold and wait, no preemption, circular wait."
+Q296,R2,"Necessary conditions for deadlock plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q296,R3,"In simple terms, necessary conditions for deadlock refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q297,R1,Ensuring at least one of the necessary conditions for deadlock cannot occur.
+Q297,R2,"Deadlock prevention plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q297,R3,"In simple terms, deadlock prevention refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q298,R1,"Dynamically checks resource allocation to avoid unsafe states (e.g., Banker's Algorithm)."
+Q298,R2,"Deadlock avoidance plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q298,R3,"In simple terms, deadlock avoidance refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q299,R1,OS periodically checks for deadlocks and recovers if necessary.
+Q299,R2,"Deadlock detection plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q299,R3,"In simple terms, deadlock detection refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q300,R1,Techniques include terminating processes or preempting resources to resolve deadlocks.
+Q300,R2,"Deadlock recovery plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q300,R3,"In simple terms, deadlock recovery refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q301,R1,Coordination of processes to ensure correct execution when accessing shared resources.
+Q301,R2,"Process synchronization plays an essential role in process management, helping the operating system to function efficiently."
+Q301,R3,"In simple terms, process synchronization refers to a mechanism or principle used in process management to manage processes or resources."
+Q302,R1,A segment of code that accesses shared resources and must be executed exclusively.
+Q302,R2,"Critical section plays an essential role in synchronization, helping the operating system to function efficiently."
+Q302,R3,"In simple terms, critical section refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q303,R1,"Disabling interrupts, mutexes, semaphores, monitors."
+Q303,R2,"What are methods to solve critical section problem plays an essential role in synchronization, helping the operating system to function efficiently."
+Q303,R3,"In simple terms, what are methods to solve critical section problem refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q304,R1,No direct answer available for what is petersons solution?.
+Q304,R2,"Petersons solution plays an essential role in os basics, helping the operating system to function efficiently."
+Q304,R3,"In simple terms, petersons solution refers to a mechanism or principle used in os basics to manage processes or resources."
+Q305,R1,"Spinlock is a lock where a process waits in a loop (""spins"") until it acquires the lock."
+Q305,R2,"Spinlock plays an essential role in os basics, helping the operating system to function efficiently."
+Q305,R3,"In simple terms, spinlock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q306,R1,A kernel thread is managed by the OS kernel and has full access to system resources.
+Q306,R2,"Kernel thread plays an essential role in process management, helping the operating system to function efficiently."
+Q306,R3,"In simple terms, kernel thread refers to a mechanism or principle used in process management to manage processes or resources."
+Q307,R1,A user thread is managed in user space without kernel involvement for context switching.
+Q307,R2,"User thread plays an essential role in process management, helping the operating system to function efficiently."
+Q307,R3,"In simple terms, user thread refers to a mechanism or principle used in process management to manage processes or resources."
+Q308,R1,"Faster execution, better CPU utilization, responsiveness, and resource sharing."
+Q308,R2,"What are advantages of multithreading plays an essential role in os basics, helping the operating system to function efficiently."
+Q308,R3,"In simple terms, what are advantages of multithreading refers to a mechanism or principle used in os basics to manage processes or resources."
+Q309,R1,Switching the CPU from one thread to another within the same or different processes.
+Q309,R2,"Thread context switch plays an essential role in process management, helping the operating system to function efficiently."
+Q309,R3,"In simple terms, thread context switch refers to a mechanism or principle used in process management to manage processes or resources."
+Q310,R1,"PCB stores process information, including state, program counter, CPU registers, memory limits, and I/O status."
+Q310,R2,"Process control block (pcb) plays an essential role in process management, helping the operating system to function efficiently."
+Q310,R3,"In simple terms, process control block (pcb) refers to a mechanism or principle used in process management to manage processes or resources."
+Q311,R1,"New, Ready, Running, Waiting, Terminated."
+Q311,R2,"What are process states plays an essential role in process management, helping the operating system to function efficiently."
+Q311,R3,"In simple terms, what are process states refers to a mechanism or principle used in process management to manage processes or resources."
+Q312,R1,Ready queue holds all processes in main memory that are ready to execute.
+Q312,R2,"Ready queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q312,R3,"In simple terms, ready queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q313,R1,Waiting queue holds processes waiting for I/O or other events.
+Q313,R2,"Waiting queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q313,R3,"In simple terms, waiting queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q314,R1,Method by which OS decides the order of process execution to optimize performance.
+Q314,R2,"Cpu scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q314,R3,"In simple terms, cpu scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q315,R1,"FCFS, SJF, Priority, Round Robin, Multilevel Queue, Multilevel Feedback Queue."
+Q315,R2,"Name cpu scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q315,R3,"In simple terms, name cpu scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q316,R1,First-Come-First-Serve schedules processes in arrival order.
+Q316,R2,"Fcfs scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q316,R3,"In simple terms, fcfs scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q317,R1,Shortest Job First schedules the process with the shortest execution time next.
+Q317,R2,"Sjf scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q317,R3,"In simple terms, sjf scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q318,R1,Preemptive scheduling allows a running process to be interrupted and replaced by a higher-priority process.
+Q318,R2,"Preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q318,R3,"In simple terms, preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q319,R1,Non-preemptive scheduling does not interrupt a running process until it finishes or voluntarily yields CPU.
+Q319,R2,"Non-preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q319,R3,"In simple terms, non-preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q320,R1,"Round-robin scheduling assigns fixed time slices to processes in cyclic order, ensuring fairness."
+Q320,R2,"Round-robin scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q320,R3,"In simple terms, round-robin scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q321,R1,Priority scheduling runs the process with the highest priority next.
+Q321,R2,"Priority scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q321,R3,"In simple terms, priority scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q322,R1,Low-priority processes never get CPU due to constant high-priority process arrival.
+Q322,R2,"Starvation plays an essential role in os basics, helping the operating system to function efficiently."
+Q322,R3,"In simple terms, starvation refers to a mechanism or principle used in os basics to manage processes or resources."
+Q323,R1,Aging gradually increases the priority of waiting processes to prevent starvation.
+Q323,R2,"Aging in cpu scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q323,R3,"In simple terms, aging in cpu scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q324,R1,"Processes are divided into queues based on priority or type, each with its own scheduling algorithm."
+Q324,R2,"Multilevel queue scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q324,R3,"In simple terms, multilevel queue scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q325,R1,"Processes can move between queues based on behavior, allowing flexibility and fairness."
+Q325,R2,"Multilevel feedback queue scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q325,R3,"In simple terms, multilevel feedback queue scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q326,R1,"A file system manages how data is stored, organized, and accessed on storage devices."
+Q326,R2,"File system plays an essential role in file systems, helping the operating system to function efficiently."
+Q326,R3,"In simple terms, file system refers to a mechanism or principle used in file systems to manage processes or resources."
+Q327,R1,"Sequential access, direct (random) access, indexed access."
+Q327,R2,"What are file access methods plays an essential role in file systems, helping the operating system to function efficiently."
+Q327,R3,"In simple terms, what are file access methods refers to a mechanism or principle used in file systems to manage processes or resources."
+Q328,R1,VFS is an abstraction layer that allows the OS to support multiple types of file systems in a uniform way.
+Q328,R2,"Virtual file system (vfs) plays an essential role in file systems, helping the operating system to function efficiently."
+Q328,R3,"In simple terms, virtual file system (vfs) refers to a mechanism or principle used in file systems to manage processes or resources."
+Q329,R1,Fragmentation occurs when memory or disk space is used inefficiently. Types: internal and external fragmentation.
+Q329,R2,"Fragmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q329,R3,"In simple terms, fragmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q330,R1,Combining free memory spaces into larger contiguous blocks to reduce external fragmentation.
+Q330,R2,"Compaction plays an essential role in os basics, helping the operating system to function efficiently."
+Q330,R3,"In simple terms, compaction refers to a mechanism or principle used in os basics to manage processes or resources."
+Q331,R1,Swapping moves processes between main memory and secondary storage to free memory for other processes.
+Q331,R2,"Swapping plays an essential role in os basics, helping the operating system to function efficiently."
+Q331,R3,"In simple terms, swapping refers to a mechanism or principle used in os basics to manage processes or resources."
+Q332,R1,"Cache is small, fast memory storing frequently accessed data; virtual memory extends RAM using disk."
+Q332,R2,"Difference  cache  virtual memory plays an essential role in memory management, helping the operating system to function efficiently."
+Q332,R3,"In simple terms, difference  cache  virtual memory refers to a mechanism or principle used in memory management to manage processes or resources."
+Q333,R1,A bootloader is a program that loads the operating system into memory during system startup.
+Q333,R2,"Bootloader plays an essential role in os basics, helping the operating system to function efficiently."
+Q333,R3,"In simple terms, bootloader refers to a mechanism or principle used in os basics to manage processes or resources."
+Q334,R1,A system call is an interface for programs to request services from the OS kernel.
+Q334,R2,"System call plays an essential role in system calls, helping the operating system to function efficiently."
+Q334,R3,"In simple terms, system call refers to a mechanism or principle used in system calls to manage processes or resources."
+Q335,R1,"open(), read(), write(), fork(), exec(), wait(), exit()."
+Q335,R2,"Examples of system calls plays an essential role in os basics, helping the operating system to function efficiently."
+Q335,R3,"In simple terms, examples of system calls refers to a mechanism or principle used in os basics to manage processes or resources."
+Q336,R1,User mode has restricted access; kernel mode has full hardware access.
+Q336,R2,"Difference  user mode  kernel mode plays an essential role in os basics, helping the operating system to function efficiently."
+Q336,R3,"In simple terms, difference  user mode  kernel mode refers to a mechanism or principle used in os basics to manage processes or resources."
+Q337,R1,Creates a new process by duplicating the calling process.
+Q337,R2,"Fork() plays an essential role in system calls, helping the operating system to function efficiently."
+Q337,R3,"In simple terms, fork() refers to a mechanism or principle used in system calls to manage processes or resources."
+Q338,R1,Replaces the current process image with a new program.
+Q338,R2,"Exec() plays an essential role in system calls, helping the operating system to function efficiently."
+Q338,R3,"In simple terms, exec() refers to a mechanism or principle used in system calls to manage processes or resources."
+Q339,R1,Completed process that still occupies process table entry.
+Q339,R2,"Zombie process plays an essential role in process management, helping the operating system to function efficiently."
+Q339,R3,"In simple terms, zombie process refers to a mechanism or principle used in process management to manage processes or resources."
+Q340,R1,Process whose parent has terminated; adopted by init process.
+Q340,R2,"Orphprocess plays an essential role in process management, helping the operating system to function efficiently."
+Q340,R3,"In simple terms, orphprocess refers to a mechanism or principle used in process management to manage processes or resources."
+Q341,R1,"Init is the first process started by the kernel at boot, responsible for starting system services."
+Q341,R2,"Init process plays an essential role in process management, helping the operating system to function efficiently."
+Q341,R3,"In simple terms, init process refers to a mechanism or principle used in process management to manage processes or resources."
+Q342,R1,I/O scheduling determines the order in which I/O operations are processed to improve efficiency.
+Q342,R2,"I/o scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q342,R3,"In simple terms, i/o scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q343,R1,"FCFS, SSTF (Shortest Seek Time First), SCAN, C-SCAN, LOOK, C-LOOK."
+Q343,R2,"Name i/o scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q343,R3,"In simple terms, name i/o scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q344,R1,Process waits for I/O operation completion.
+Q344,R2,"Synchronous i/o plays an essential role in device management, helping the operating system to function efficiently."
+Q344,R3,"In simple terms, synchronous i/o refers to a mechanism or principle used in device management to manage processes or resources."
+Q345,R1,Process continues execution while I/O operation happens.
+Q345,R2,"Asynchronous i/o plays an essential role in device management, helping the operating system to function efficiently."
+Q345,R3,"In simple terms, asynchronous i/o refers to a mechanism or principle used in device management to manage processes or resources."
+Q346,R1,"OS designed for predictable, time-critical operations."
+Q346,R2,"Real-time os (rtos) plays an essential role in os basics, helping the operating system to function efficiently."
+Q346,R3,"In simple terms, real-time os (rtos) refers to a mechanism or principle used in os basics to manage processes or resources."
+Q347,R1,Hard RTOS guarantees deadlines; soft RTOS is best-effort.
+Q347,R2,"Difference  hard  soft rtos plays an essential role in os basics, helping the operating system to function efficiently."
+Q347,R3,"In simple terms, difference  hard  soft rtos refers to a mechanism or principle used in os basics to manage processes or resources."
+Q348,R1,Manages resources across multiple networked computers as a single system.
+Q348,R2,"Distributed os plays an essential role in os basics, helping the operating system to function efficiently."
+Q348,R3,"In simple terms, distributed os refers to a mechanism or principle used in os basics to manage processes or resources."
+Q349,R1,Provides network services like file sharing and communication.
+Q349,R2,"Network os (nos) plays an essential role in os basics, helping the operating system to function efficiently."
+Q349,R3,"In simple terms, network os (nos) refers to a mechanism or principle used in os basics to manage processes or resources."
+Q350,R1,Monolithic has all services in kernel; microkernel keeps minimal services in kernel and others in user space.
+Q350,R2,"Difference  monolithic  microkernel plays an essential role in os basics, helping the operating system to function efficiently."
+Q350,R3,"In simple terms, difference  monolithic  microkernel refers to a mechanism or principle used in os basics to manage processes or resources."
+Q351,R1,Hybrid kernel combines features of microkernel and monolithic kernel for performance and modularity.
+Q351,R2,"Hybrid kernel plays an essential role in os basics, helping the operating system to function efficiently."
+Q351,R3,"In simple terms, hybrid kernel refers to a mechanism or principle used in os basics to manage processes or resources."
+Q352,R1,Kernel component that can be loaded/unloaded dynamically.
+Q352,R2,"Loadable kernel module (lkm) plays an essential role in os basics, helping the operating system to function efficiently."
+Q352,R3,"In simple terms, loadable kernel module (lkm) refers to a mechanism or principle used in os basics to manage processes or resources."
+Q353,R1,Background process running without user interaction.
+Q353,R2,"Daemon process plays an essential role in process management, helping the operating system to function efficiently."
+Q353,R3,"In simple terms, daemon process refers to a mechanism or principle used in process management to manage processes or resources."
+Q354,R1,Bootstrapping is the process of loading the OS into memory from firmware.
+Q354,R2,"Bootstrapping plays an essential role in os basics, helping the operating system to function efficiently."
+Q354,R3,"In simple terms, bootstrapping refers to a mechanism or principle used in os basics to manage processes or resources."
+Q355,R1,Memory management technique that caches frequently used objects.
+Q355,R2,"Slab allocation plays an essential role in memory management, helping the operating system to function efficiently."
+Q355,R3,"In simple terms, slab allocation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q356,R1,"Spinlock is a lock where a process waits in a loop (""spins"") until it acquires the lock."
+Q356,R2,"Spinlock plays an essential role in os basics, helping the operating system to function efficiently."
+Q356,R3,"In simple terms, spinlock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q357,R1,Distributed file system stores and accesses files across multiple machines transparently.
+Q357,R2,"Distributed file system plays an essential role in file systems, helping the operating system to function efficiently."
+Q357,R3,"In simple terms, distributed file system refers to a mechanism or principle used in file systems to manage processes or resources."
+Q358,R1,Kernel panic occurs when the OS detects a fatal error from which it cannot safely recover.
+Q358,R2,"Kernel panic plays an essential role in os basics, helping the operating system to function efficiently."
+Q358,R3,"In simple terms, kernel panic refers to a mechanism or principle used in os basics to manage processes or resources."
+Q359,R1,Maps device memory into process address space for direct access.
+Q359,R2,"Memory-mapped i/o plays an essential role in memory management, helping the operating system to function efficiently."
+Q359,R3,"In simple terms, memory-mapped i/o refers to a mechanism or principle used in memory management to manage processes or resources."
+Q360,R1,Maps virtual addresses to physical addresses.
+Q360,R2,"Page table plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q360,R3,"In simple terms, page table refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q361,R1,Single table mapping physical frames to virtual addresses to save memory.
+Q361,R2,"Inverted page table plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q361,R3,"In simple terms, inverted page table refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q362,R1,Translation Lookaside Buffer caches recent virtual-to-physical address mappings.
+Q362,R2,"Tlb plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q362,R3,"In simple terms, tlb refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q363,R1,Segmentation fault occurs when a process accesses memory it is not allowed to.
+Q363,R2,"Segmentation fault plays an essential role in memory management, helping the operating system to function efficiently."
+Q363,R3,"In simple terms, segmentation fault refers to a mechanism or principle used in memory management to manage processes or resources."
+Q364,R1,Only the required segment of a program is loaded into memory when needed.
+Q364,R2,"Dem segmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q364,R3,"In simple terms, dem segmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q365,R1,Metadata in a file system that stores information about disk layout and free space.
+Q365,R2,"Superblock plays an essential role in os basics, helping the operating system to function efficiently."
+Q365,R3,"In simple terms, superblock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q366,R1,Logs updates before writing to disk to prevent corruption.
+Q366,R2,"Journaling plays an essential role in os basics, helping the operating system to function efficiently."
+Q366,R3,"In simple terms, journaling refers to a mechanism or principle used in os basics to manage processes or resources."
+Q367,R1,"File Allocation Table, a simple file system format."
+Q367,R2,"Fat plays an essential role in os basics, helping the operating system to function efficiently."
+Q367,R3,"In simple terms, fat refers to a mechanism or principle used in os basics to manage processes or resources."
+Q368,R1,"New Technology File System with security, journaling, and large file support."
+Q368,R2,"Ntfs plays an essential role in os basics, helping the operating system to function efficiently."
+Q368,R3,"In simple terms, ntfs refers to a mechanism or principle used in os basics to manage processes or resources."
+Q369,R1,"Inode stores metadata about a file, like permissions, ownership, and pointers to data blocks."
+Q369,R2,"Inode plays an essential role in file systems, helping the operating system to function efficiently."
+Q369,R3,"In simple terms, inode refers to a mechanism or principle used in file systems to manage processes or resources."
+Q370,R1,RAID (Redundant Array of Independent/Inexpensive Disks) combines multiple disks for redundancy and performance.
+Q370,R2,"Raid plays an essential role in os basics, helping the operating system to function efficiently."
+Q370,R3,"In simple terms, raid refers to a mechanism or principle used in os basics to manage processes or resources."
+Q371,R1,"RAID 0, 1, 5, 6, 10."
+Q371,R2,"What are raid levels plays an essential role in os basics, helping the operating system to function efficiently."
+Q371,R3,"In simple terms, what are raid levels refers to a mechanism or principle used in os basics to manage processes or resources."
+Q372,R1,Direct Memory Access allows devices to read/write memory directly.
+Q372,R2,"Dma plays an essential role in device management, helping the operating system to function efficiently."
+Q373,R1,Unidirectional communication channel between processes.
+Q373,R2,"Pipe plays an essential role in os basics, helping the operating system to function efficiently."
+Q373,R3,"In simple terms, pipe refers to a mechanism or principle used in os basics to manage processes or resources."
+Q374,R1,Endpoint for bidirectional network communication.
+Q374,R2,"Socket plays an essential role in os basics, helping the operating system to function efficiently."
+Q374,R3,"In simple terms, socket refers to a mechanism or principle used in os basics to manage processes or resources."
+Q375,R1,"Mechanisms for inter-process communication (shared memory, message passing)."
+Q375,R2,"Ipc plays an essential role in os basics, helping the operating system to function efficiently."
+Q375,R3,"In simple terms, ipc refers to a mechanism or principle used in os basics to manage processes or resources."
+Q376,R1,Shared memory allows multiple processes to access the same memory region for faster communication.
+Q376,R2,"Shared memory in ipc plays an essential role in memory management, helping the operating system to function efficiently."
+Q376,R3,"In simple terms, shared memory in ipc refers to a mechanism or principle used in memory management to manage processes or resources."
+Q377,R1,Message queue is an IPC mechanism where messages are stored in a queue for processes to read.
+Q377,R2,"Message queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q377,R3,"In simple terms, message queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q378,R1,A semaphore is a synchronization tool using counters to control access to shared resources.
+Q378,R2,"Semaphore in os plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q378,R3,"In simple terms, semaphore in os refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q379,R1,Counting allows multiple accesses; binary allows single access.
+Q379,R2,"Difference  counting  binary semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q379,R3,"In simple terms, difference  counting  binary semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q380,R1,Mutex (mutual exclusion) is a locking mechanism ensuring that only one thread accesses a resource at a time.
+Q380,R2,"Mutex plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q380,R3,"In simple terms, mutex refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q381,R1,Mutex has ownership; semaphore may allow multiple processes and no ownership.
+Q381,R2,"Difference  mutex  semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q381,R3,"In simple terms, difference  mutex  semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q382,R1,Deadlock occurs when processes are waiting indefinitely for resources held by each other.
+Q382,R2,"Deadlock plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q382,R3,"In simple terms, deadlock refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q383,R1,"Deadlock occurs only if four conditions hold: mutual exclusion, hold & wait, no preemption, and circular wait."
+Q383,R2,"For a deadlock to happen, processes must hold resources exclusively, wait for more, not be preempted, and form a circular waiting chain."
+Q383,R3,"The necessary conditions for deadlock are: one-at-a-time resource access, processes holding while waiting, resources not being taken away, and circular dependency."
+Q384,R1,Ensuring at least one of the necessary conditions for deadlock cannot occur.
+Q384,R2,"Deadlock prevention plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q384,R3,"In simple terms, deadlock prevention refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q385,R1,"Dynamically checks resource allocation to avoid unsafe states (e.g., Banker's Algorithm)."
+Q385,R2,"Deadlock avoidance plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q385,R3,"In simple terms, deadlock avoidance refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q386,R1,OS periodically checks for deadlocks and recovers if necessary.
+Q386,R2,"Deadlock detection plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q386,R3,"In simple terms, deadlock detection refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q387,R1,Techniques include terminating processes or preempting resources to resolve deadlocks.
+Q387,R2,"Deadlock recovery plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q387,R3,"In simple terms, deadlock recovery refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q388,R1,Coordination of processes to ensure correct execution when accessing shared resources.
+Q388,R2,"Process synchronization plays an essential role in process management, helping the operating system to function efficiently."
+Q388,R3,"In simple terms, process synchronization refers to a mechanism or principle used in process management to manage processes or resources."
+Q389,R1,A segment of code that accesses shared resources and must be executed exclusively.
+Q389,R2,"Critical section plays an essential role in synchronization, helping the operating system to function efficiently."
+Q389,R3,"In simple terms, critical section refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q390,R1,"Disabling interrupts, mutexes, semaphores, monitors."
+Q390,R2,"Methods to solve critical section problem plays an essential role in synchronization, helping the operating system to function efficiently."
+Q390,R3,"In simple terms, methods to solve critical section problem refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q391,R1,No direct answer available for what is petersons solution?.
+Q391,R2,"Petersons solution plays an essential role in os basics, helping the operating system to function efficiently."
+Q391,R3,"In simple terms, petersons solution refers to a mechanism or principle used in os basics to manage processes or resources."
+Q392,R1,"Spinlock is a lock where a process waits in a loop (""spins"") until it acquires the lock."
+Q392,R2,"Spinlock plays an essential role in os basics, helping the operating system to function efficiently."
+Q392,R3,"In simple terms, spinlock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q393,R1,A kernel thread is managed by the OS kernel and has full access to system resources.
+Q393,R2,"Kernel thread plays an essential role in process management, helping the operating system to function efficiently."
+Q393,R3,"In simple terms, kernel thread refers to a mechanism or principle used in process management to manage processes or resources."
+Q394,R1,A user thread is managed in user space without kernel involvement for context switching.
+Q394,R2,"User thread plays an essential role in process management, helping the operating system to function efficiently."
+Q394,R3,"In simple terms, user thread refers to a mechanism or principle used in process management to manage processes or resources."
+Q395,R1,"Faster execution, better CPU utilization, responsiveness, resource sharing."
+Q395,R2,"Advantages of multithreading plays an essential role in os basics, helping the operating system to function efficiently."
+Q395,R3,"In simple terms, advantages of multithreading refers to a mechanism or principle used in os basics to manage processes or resources."
+Q396,R1,Switching the CPU from one thread to another within the same or different processes.
+Q396,R2,"Thread context switch plays an essential role in process management, helping the operating system to function efficiently."
+Q396,R3,"In simple terms, thread context switch refers to a mechanism or principle used in process management to manage processes or resources."
+Q397,R1,"PCB stores information about process state, program counter, registers, memory, and I/O."
+Q397,R2,"Process control block (pcb) plays an essential role in process management, helping the operating system to function efficiently."
+Q397,R3,"In simple terms, process control block (pcb) refers to a mechanism or principle used in process management to manage processes or resources."
+Q398,R1,"New, Ready, Running, Waiting, Terminated."
+Q398,R2,"What are process states plays an essential role in process management, helping the operating system to function efficiently."
+Q398,R3,"In simple terms, what are process states refers to a mechanism or principle used in process management to manage processes or resources."
+Q399,R1,Ready queue holds all processes in main memory that are ready to execute.
+Q399,R2,"Ready queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q399,R3,"In simple terms, ready queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q400,R1,Waiting queue holds processes waiting for I/O or other events.
+Q400,R2,"Waiting queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q400,R3,"In simple terms, waiting queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q401,R1,Method by which OS decides the order of process execution to optimize performance.
+Q401,R2,"Cpu scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q401,R3,"In simple terms, cpu scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q402,R1,"FCFS, SJF, Priority, Round Robin, Multilevel Queue, Multilevel Feedback Queue."
+Q402,R2,"Name cpu scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q402,R3,"In simple terms, name cpu scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q403,R1,First-Come-First-Serve schedules processes in arrival order.
+Q403,R2,"Fcfs scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q403,R3,"In simple terms, fcfs scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q404,R1,Shortest Job First schedules the process with the shortest execution time next.
+Q404,R2,"Sjf scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q404,R3,"In simple terms, sjf scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q405,R1,Preemptive scheduling allows a running process to be interrupted and replaced by a higher-priority process.
+Q405,R2,"Preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q405,R3,"In simple terms, preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q406,R1,Non-preemptive scheduling does not interrupt a running process until it finishes or voluntarily yields CPU.
+Q406,R2,"Non-preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q406,R3,"In simple terms, non-preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q407,R1,"Round-robin scheduling assigns fixed time slices to processes in cyclic order, ensuring fairness."
+Q407,R2,"Round-robin scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q407,R3,"In simple terms, round-robin scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q408,R1,Priority scheduling runs the process with the highest priority next.
+Q408,R2,"Priority scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q408,R3,"In simple terms, priority scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q409,R1,Low-priority processes never get CPU due to constant high-priority process arrival.
+Q409,R2,"Starvation plays an essential role in os basics, helping the operating system to function efficiently."
+Q409,R3,"In simple terms, starvation refers to a mechanism or principle used in os basics to manage processes or resources."
+Q410,R1,Aging gradually increases the priority of waiting processes to prevent starvation.
+Q410,R2,"Aging in cpu scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q410,R3,"In simple terms, aging in cpu scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q411,R1,"Processes are divided into queues based on priority or type, each with its own scheduling algorithm."
+Q411,R2,"Multilevel queue scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q411,R3,"In simple terms, multilevel queue scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q412,R1,"Processes can move between queues based on behavior, allowing flexibility and fairness."
+Q412,R2,"Multilevel feedback queue scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q412,R3,"In simple terms, multilevel feedback queue scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q413,R1,"A file system manages how data is stored, organized, and accessed on storage devices."
+Q413,R2,"File system plays an essential role in file systems, helping the operating system to function efficiently."
+Q413,R3,"In simple terms, file system refers to a mechanism or principle used in file systems to manage processes or resources."
+Q414,R1,"Sequential access, direct (random) access, indexed access."
+Q414,R2,"What are file access methods plays an essential role in file systems, helping the operating system to function efficiently."
+Q414,R3,"In simple terms, what are file access methods refers to a mechanism or principle used in file systems to manage processes or resources."
+Q415,R1,VFS is an abstraction layer that allows the OS to support multiple types of file systems in a uniform way.
+Q415,R2,"Virtual file system (vfs) plays an essential role in file systems, helping the operating system to function efficiently."
+Q415,R3,"In simple terms, virtual file system (vfs) refers to a mechanism or principle used in file systems to manage processes or resources."
+Q416,R1,Fragmentation occurs when memory or disk space is used inefficiently. Types: internal and external fragmentation.
+Q416,R2,"Fragmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q416,R3,"In simple terms, fragmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q417,R1,Combining free memory spaces into larger contiguous blocks to reduce external fragmentation.
+Q417,R2,"Compaction plays an essential role in os basics, helping the operating system to function efficiently."
+Q417,R3,"In simple terms, compaction refers to a mechanism or principle used in os basics to manage processes or resources."
+Q418,R1,Swapping moves processes between main memory and secondary storage to free memory for other processes.
+Q418,R2,"Swapping plays an essential role in os basics, helping the operating system to function efficiently."
+Q418,R3,"In simple terms, swapping refers to a mechanism or principle used in os basics to manage processes or resources."
+Q419,R1,"Cache is small, fast memory storing frequently accessed data; virtual memory extends RAM using disk."
+Q419,R2,"Difference  cache  virtual memory plays an essential role in memory management, helping the operating system to function efficiently."
+Q419,R3,"In simple terms, difference  cache  virtual memory refers to a mechanism or principle used in memory management to manage processes or resources."
+Q420,R1,A bootloader is a program that loads the operating system into memory during system startup.
+Q420,R2,"Bootloader plays an essential role in os basics, helping the operating system to function efficiently."
+Q420,R3,"In simple terms, bootloader refers to a mechanism or principle used in os basics to manage processes or resources."
+Q421,R1,A system call is an interface for programs to request services from the OS kernel.
+Q421,R2,"System call plays an essential role in system calls, helping the operating system to function efficiently."
+Q421,R3,"In simple terms, system call refers to a mechanism or principle used in system calls to manage processes or resources."
+Q422,R1,"open(), read(), write(), fork(), exec(), wait(), exit()."
+Q422,R2,"Examples of system calls plays an essential role in os basics, helping the operating system to function efficiently."
+Q422,R3,"In simple terms, examples of system calls refers to a mechanism or principle used in os basics to manage processes or resources."
+Q423,R1,User mode has restricted access; kernel mode has full hardware access.
+Q423,R2,"Difference  user mode  kernel mode plays an essential role in os basics, helping the operating system to function efficiently."
+Q423,R3,"In simple terms, difference  user mode  kernel mode refers to a mechanism or principle used in os basics to manage processes or resources."
+Q424,R1,Creates a new process by duplicating the calling process.
+Q424,R2,"Fork() plays an essential role in system calls, helping the operating system to function efficiently."
+Q424,R3,"In simple terms, fork() refers to a mechanism or principle used in system calls to manage processes or resources."
+Q425,R1,Replaces the current process image with a new program.
+Q425,R2,"Exec() plays an essential role in system calls, helping the operating system to function efficiently."
+Q425,R3,"In simple terms, exec() refers to a mechanism or principle used in system calls to manage processes or resources."
+Q426,R1,Completed process that still occupies process table entry.
+Q426,R2,"Zombie process plays an essential role in process management, helping the operating system to function efficiently."
+Q426,R3,"In simple terms, zombie process refers to a mechanism or principle used in process management to manage processes or resources."
+Q427,R1,Process whose parent has terminated; adopted by init process.
+Q427,R2,"Orphprocess plays an essential role in process management, helping the operating system to function efficiently."
+Q427,R3,"In simple terms, orphprocess refers to a mechanism or principle used in process management to manage processes or resources."
+Q428,R1,"Init is the first process started by the kernel at boot, responsible for starting system services."
+Q428,R2,"Init process plays an essential role in process management, helping the operating system to function efficiently."
+Q428,R3,"In simple terms, init process refers to a mechanism or principle used in process management to manage processes or resources."
+Q429,R1,I/O scheduling determines the order in which I/O operations are processed to improve efficiency.
+Q429,R2,"I/o scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q429,R3,"In simple terms, i/o scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q430,R1,"FCFS, SSTF (Shortest Seek Time First), SCAN, C-SCAN, LOOK, C-LOOK."
+Q430,R2,"Name i/o scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q430,R3,"In simple terms, name i/o scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q431,R1,Process waits for I/O operation completion.
+Q431,R2,"Synchronous i/o plays an essential role in device management, helping the operating system to function efficiently."
+Q431,R3,"In simple terms, synchronous i/o refers to a mechanism or principle used in device management to manage processes or resources."
+Q432,R1,Process continues execution while I/O operation happens.
+Q432,R2,"Asynchronous i/o plays an essential role in device management, helping the operating system to function efficiently."
+Q432,R3,"In simple terms, asynchronous i/o refers to a mechanism or principle used in device management to manage processes or resources."
+Q433,R1,"OS designed for predictable, time-critical operations."
+Q433,R2,"Real-time os (rtos) plays an essential role in os basics, helping the operating system to function efficiently."
+Q433,R3,"In simple terms, real-time os (rtos) refers to a mechanism or principle used in os basics to manage processes or resources."
+Q434,R1,Hard RTOS guarantees deadlines; soft RTOS is best-effort.
+Q434,R2,"Difference  hard  soft rtos plays an essential role in os basics, helping the operating system to function efficiently."
+Q434,R3,"In simple terms, difference  hard  soft rtos refers to a mechanism or principle used in os basics to manage processes or resources."
+Q435,R1,Manages resources across multiple networked computers as a single system.
+Q435,R2,"Distributed os plays an essential role in os basics, helping the operating system to function efficiently."
+Q435,R3,"In simple terms, distributed os refers to a mechanism or principle used in os basics to manage processes or resources."
+Q436,R1,Provides network services like file sharing and communication.
+Q436,R2,"Network os (nos) plays an essential role in os basics, helping the operating system to function efficiently."
+Q436,R3,"In simple terms, network os (nos) refers to a mechanism or principle used in os basics to manage processes or resources."
+Q437,R1,Monolithic has all services in kernel; microkernel keeps minimal services in kernel and others in user space.
+Q437,R2,"Difference  monolithic  microkernel plays an essential role in os basics, helping the operating system to function efficiently."
+Q437,R3,"In simple terms, difference  monolithic  microkernel refers to a mechanism or principle used in os basics to manage processes or resources."
+Q438,R1,Hybrid kernel combines features of microkernel and monolithic kernel for performance and modularity.
+Q438,R2,"Hybrid kernel plays an essential role in os basics, helping the operating system to function efficiently."
+Q438,R3,"In simple terms, hybrid kernel refers to a mechanism or principle used in os basics to manage processes or resources."
+Q439,R1,Kernel component that can be loaded/unloaded dynamically.
+Q439,R2,"Loadable kernel module (lkm) plays an essential role in os basics, helping the operating system to function efficiently."
+Q439,R3,"In simple terms, loadable kernel module (lkm) refers to a mechanism or principle used in os basics to manage processes or resources."
+Q440,R1,Background process running without user interaction.
+Q440,R2,"Daemon process plays an essential role in process management, helping the operating system to function efficiently."
+Q440,R3,"In simple terms, daemon process refers to a mechanism or principle used in process management to manage processes or resources."
+Q441,R1,Bootstrapping is the process of loading the OS into memory from firmware.
+Q441,R2,"Bootstrapping plays an essential role in os basics, helping the operating system to function efficiently."
+Q441,R3,"In simple terms, bootstrapping refers to a mechanism or principle used in os basics to manage processes or resources."
+Q442,R1,Memory management technique that caches frequently used objects.
+Q442,R2,"Slab allocation plays an essential role in memory management, helping the operating system to function efficiently."
+Q442,R3,"In simple terms, slab allocation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q443,R1,"Spinlock is a lock where a process waits in a loop (""spins"") until it acquires the lock."
+Q443,R2,"Spinlock plays an essential role in os basics, helping the operating system to function efficiently."
+Q443,R3,"In simple terms, spinlock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q444,R1,Distributed file system stores and accesses files across multiple machines transparently.
+Q444,R2,"Distributed file system plays an essential role in file systems, helping the operating system to function efficiently."
+Q444,R3,"In simple terms, distributed file system refers to a mechanism or principle used in file systems to manage processes or resources."
+Q445,R1,Kernel panic occurs when the OS detects a fatal error from which it cannot safely recover.
+Q445,R2,"Kernel panic plays an essential role in os basics, helping the operating system to function efficiently."
+Q445,R3,"In simple terms, kernel panic refers to a mechanism or principle used in os basics to manage processes or resources."
+Q446,R1,Maps device memory into process address space for direct access.
+Q446,R2,"Memory-mapped i/o plays an essential role in memory management, helping the operating system to function efficiently."
+Q446,R3,"In simple terms, memory-mapped i/o refers to a mechanism or principle used in memory management to manage processes or resources."
+Q447,R1,Maps virtual addresses to physical addresses.
+Q447,R2,"Page table plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q447,R3,"In simple terms, page table refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q448,R1,Single table mapping physical frames to virtual addresses to save memory.
+Q448,R2,"Inverted page table plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q448,R3,"In simple terms, inverted page table refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q449,R1,Translation Lookaside Buffer caches recent virtual-to-physical address mappings.
+Q449,R2,"Tlb plays an essential role in virtual memory, helping the operating system to function efficiently."
+Q449,R3,"In simple terms, tlb refers to a mechanism or principle used in virtual memory to manage processes or resources."
+Q450,R1,Segmentation fault occurs when a process accesses memory it is not allowed to.
+Q450,R2,"Segmentation fault plays an essential role in memory management, helping the operating system to function efficiently."
+Q450,R3,"In simple terms, segmentation fault refers to a mechanism or principle used in memory management to manage processes or resources."
+Q451,R1,Only the required segment of a program is loaded into memory when needed.
+Q451,R2,"Dem segmentation plays an essential role in memory management, helping the operating system to function efficiently."
+Q451,R3,"In simple terms, dem segmentation refers to a mechanism or principle used in memory management to manage processes or resources."
+Q452,R1,Metadata in a file system that stores information about disk layout and free space.
+Q452,R2,"Superblock plays an essential role in os basics, helping the operating system to function efficiently."
+Q452,R3,"In simple terms, superblock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q453,R1,Logs updates before writing to disk to prevent corruption.
+Q453,R2,"Journaling plays an essential role in os basics, helping the operating system to function efficiently."
+Q453,R3,"In simple terms, journaling refers to a mechanism or principle used in os basics to manage processes or resources."
+Q454,R1,"File Allocation Table, a simple file system format."
+Q454,R2,"Fat plays an essential role in os basics, helping the operating system to function efficiently."
+Q454,R3,"In simple terms, fat refers to a mechanism or principle used in os basics to manage processes or resources."
+Q455,R1,"New Technology File System with security, journaling, and large file support."
+Q455,R2,"Ntfs plays an essential role in os basics, helping the operating system to function efficiently."
+Q455,R3,"In simple terms, ntfs refers to a mechanism or principle used in os basics to manage processes or resources."
+Q456,R1,"Inode stores metadata about a file, like permissions, ownership, and pointers to data blocks."
+Q456,R2,"Inode plays an essential role in file systems, helping the operating system to function efficiently."
+Q456,R3,"In simple terms, inode refers to a mechanism or principle used in file systems to manage processes or resources."
+Q457,R1,RAID (Redundant Array of Independent/Inexpensive Disks) combines multiple disks for redundancy and performance.
+Q457,R2,"Raid plays an essential role in os basics, helping the operating system to function efficiently."
+Q457,R3,"In simple terms, raid refers to a mechanism or principle used in os basics to manage processes or resources."
+Q458,R1,"RAID 0, 1, 5, 6, 10."
+Q458,R2,"What are raid levels plays an essential role in os basics, helping the operating system to function efficiently."
+Q458,R3,"In simple terms, what are raid levels refers to a mechanism or principle used in os basics to manage processes or resources."
+Q459,R1,Direct Memory Access allows devices to read/write memory directly.
+Q459,R2,"Dma plays an essential role in device management, helping the operating system to function efficiently."
+Q459,R3,"In simple terms, dma refers to a mechanism or principle used in device management to manage processes or resources."
+Q460,R1,Unidirectional communication channel between processes.
+Q460,R2,"Pipe plays an essential role in os basics, helping the operating system to function efficiently."
+Q460,R3,"In simple terms, pipe refers to a mechanism or principle used in os basics to manage processes or resources."
+Q461,R1,Endpoint for bidirectional network communication.
+Q461,R2,"Socket plays an essential role in os basics, helping the operating system to function efficiently."
+Q461,R3,"In simple terms, socket refers to a mechanism or principle used in os basics to manage processes or resources."
+Q462,R1,"Mechanisms for inter-process communication (shared memory, message passing)."
+Q462,R2,"Ipc plays an essential role in os basics, helping the operating system to function efficiently."
+Q462,R3,"In simple terms, ipc refers to a mechanism or principle used in os basics to manage processes or resources."
+Q463,R1,Shared memory allows multiple processes to access the same memory region for faster communication.
+Q463,R2,"Shared memory in ipc plays an essential role in memory management, helping the operating system to function efficiently."
+Q463,R3,"In simple terms, shared memory in ipc refers to a mechanism or principle used in memory management to manage processes or resources."
+Q464,R1,Message queue is an IPC mechanism where messages are stored in a queue for processes to read.
+Q464,R2,"Message queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q464,R3,"In simple terms, message queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q465,R1,A semaphore is a synchronization tool using counters to control access to shared resources.
+Q465,R2,"Semaphore in os plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q465,R3,"In simple terms, semaphore in os refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q466,R1,Counting allows multiple accesses; binary allows single access.
+Q466,R2,"Difference  counting  binary semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q466,R3,"In simple terms, difference  counting  binary semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q467,R1,Mutex (mutual exclusion) is a locking mechanism ensuring that only one thread accesses a resource at a time.
+Q467,R2,"Mutex plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q467,R3,"In simple terms, mutex refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q468,R1,"A mutex allows only one thread to access a resource, while a semaphore allows multiple threads based on a counter."
+Q468,R2,"Difference  mutex  semaphore plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q468,R3,"In simple terms, difference  mutex  semaphore refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q469,R1,Deadlock occurs when processes are waiting indefinitely for resources held by each other.
+Q469,R2,"Deadlock plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q469,R3,"In simple terms, deadlock refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q470,R1,"Mutual exclusion, hold and wait, no preemption, circular wait."
+Q470,R2,"Necessary conditions for deadlock plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q470,R3,"In simple terms, necessary conditions for deadlock refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q471,R1,Ensuring at least one of the necessary conditions for deadlock cannot occur.
+Q471,R2,"Deadlock prevention plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q471,R3,"In simple terms, deadlock prevention refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q472,R1,"Dynamically checks resource allocation to avoid unsafe states (e.g., Banker's Algorithm)."
+Q472,R2,"Deadlock avoidance plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q472,R3,"In simple terms, deadlock avoidance refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q473,R1,OS periodically checks for deadlocks and recovers if necessary.
+Q473,R2,"Deadlock detection plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q473,R3,"In simple terms, deadlock detection refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q474,R1,Techniques include terminating processes or preempting resources to resolve deadlocks.
+Q474,R2,"Deadlock recovery plays an essential role in deadlocks, helping the operating system to function efficiently."
+Q474,R3,"In simple terms, deadlock recovery refers to a mechanism or principle used in deadlocks to manage processes or resources."
+Q475,R1,Coordination of processes to ensure correct execution when accessing shared resources.
+Q475,R2,"Process synchronization plays an essential role in process management, helping the operating system to function efficiently."
+Q475,R3,"In simple terms, process synchronization refers to a mechanism or principle used in process management to manage processes or resources."
+Q476,R1,A segment of code that accesses shared resources and must be executed exclusively.
+Q476,R2,"Critical section plays an essential role in synchronization, helping the operating system to function efficiently."
+Q476,R3,"In simple terms, critical section refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q477,R1,"Disabling interrupts, mutexes, semaphores, monitors."
+Q477,R2,"Methods to solve critical section problem plays an essential role in synchronization, helping the operating system to function efficiently."
+Q477,R3,"In simple terms, methods to solve critical section problem refers to a mechanism or principle used in synchronization to manage processes or resources."
+Q478,R1,No direct answer available for what is petersons solution?.
+Q478,R2,"Petersons solution plays an essential role in os basics, helping the operating system to function efficiently."
+Q478,R3,"In simple terms, petersons solution refers to a mechanism or principle used in os basics to manage processes or resources."
+Q479,R1,"Spinlock is a lock where a process waits in a loop (""spins"") until it acquires the lock."
+Q479,R2,"Spinlock plays an essential role in os basics, helping the operating system to function efficiently."
+Q479,R3,"In simple terms, spinlock refers to a mechanism or principle used in os basics to manage processes or resources."
+Q480,R1,A kernel thread is managed by the OS kernel and has full access to system resources.
+Q480,R2,"Kernel thread plays an essential role in process management, helping the operating system to function efficiently."
+Q480,R3,"In simple terms, kernel thread refers to a mechanism or principle used in process management to manage processes or resources."
+Q481,R1,A user thread is managed in user space without kernel involvement for context switching.
+Q481,R2,"User thread plays an essential role in process management, helping the operating system to function efficiently."
+Q481,R3,"In simple terms, user thread refers to a mechanism or principle used in process management to manage processes or resources."
+Q482,R1,"Faster execution, better CPU utilization, responsiveness, resource sharing."
+Q482,R2,"Advantages of multithreading plays an essential role in os basics, helping the operating system to function efficiently."
+Q482,R3,"In simple terms, advantages of multithreading refers to a mechanism or principle used in os basics to manage processes or resources."
+Q483,R1,Switching the CPU from one thread to another within the same or different processes.
+Q483,R2,"Thread context switch plays an essential role in process management, helping the operating system to function efficiently."
+Q483,R3,"In simple terms, thread context switch refers to a mechanism or principle used in process management to manage processes or resources."
+Q484,R1,"PCB stores information about process state, program counter, registers, memory, and I/O."
+Q484,R2,"Process control block (pcb) plays an essential role in process management, helping the operating system to function efficiently."
+Q484,R3,"In simple terms, process control block (pcb) refers to a mechanism or principle used in process management to manage processes or resources."
+Q485,R1,"New, Ready, Running, Waiting, Terminated."
+Q485,R2,"What are process states plays an essential role in process management, helping the operating system to function efficiently."
+Q485,R3,"In simple terms, what are process states refers to a mechanism or principle used in process management to manage processes or resources."
+Q486,R1,Ready queue holds all processes in main memory that are ready to execute.
+Q486,R2,"Ready queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q486,R3,"In simple terms, ready queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q487,R1,Waiting queue holds processes waiting for I/O or other events.
+Q487,R2,"Waiting queue plays an essential role in os basics, helping the operating system to function efficiently."
+Q487,R3,"In simple terms, waiting queue refers to a mechanism or principle used in os basics to manage processes or resources."
+Q488,R1,Method by which OS decides the order of process execution to optimize performance.
+Q488,R2,"Cpu scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q488,R3,"In simple terms, cpu scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q489,R1,"FCFS, SJF, Priority, Round Robin, Multilevel Queue, Multilevel Feedback Queue."
+Q489,R2,"Name cpu scheduling algorithms plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q489,R3,"In simple terms, name cpu scheduling algorithms refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q490,R1,First-Come-First-Serve schedules processes in arrival order.
+Q490,R2,"Fcfs scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q490,R3,"In simple terms, fcfs scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q491,R1,"SJF (Shortest Job First) is a CPU scheduling algorithm that selects the process with the shortest burst time."
+Q491,R2,"Sjf scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q491,R3,"In simple terms, sjf scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q492,R1,Preemptive scheduling allows a running process to be interrupted and replaced by a higher-priority process.
+Q492,R2,"Preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q492,R3,"In simple terms, preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q493,R1,Non-preemptive scheduling does not interrupt a running process until it finishes or voluntarily yields CPU.
+Q493,R2,"Non-preemptive scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q493,R3,"In simple terms, non-preemptive scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q494,R1,"Round-robin scheduling assigns fixed time slices to processes in cyclic order, ensuring fairness."
+Q494,R2,"Round-robin scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q494,R3,"In simple terms, round-robin scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q495,R1,Priority scheduling runs the process with the highest priority next.
+Q495,R2,"Priority scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q495,R3,"In simple terms, priority scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q496,R1,Low-priority processes never get CPU due to constant high-priority process arrival.
+Q496,R2,"Starvation plays an essential role in os basics, helping the operating system to function efficiently."
+Q496,R3,"In simple terms, starvation refers to a mechanism or principle used in os basics to manage processes or resources."
+Q497,R1,Aging gradually increases the priority of waiting processes to prevent starvation.
+Q497,R2,"Aging in cpu scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q497,R3,"In simple terms, aging in cpu scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q498,R1,"Processes are divided into queues based on priority or type, each with its own scheduling algorithm."
+Q498,R2,"Multilevel queue scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q498,R3,"In simple terms, multilevel queue scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q499,R1,"Processes can move between queues based on behavior, allowing flexibility and fairness."
+Q499,R2,"Multilevel feedback queue scheduling plays an essential role in cpu scheduling, helping the operating system to function efficiently."
+Q499,R3,"In simple terms, multilevel feedback queue scheduling refers to a mechanism or principle used in cpu scheduling to manage processes or resources."
+Q500,R1,"A file system manages how data is stored, organized, and accessed on storage devices."
+Q500,R2,"File system plays an essential role in file systems, helping the operating system to function efficiently."
+Q500,R3,"In simple terms, file system refers to a mechanism or principle used in file systems to manage processes or resources."

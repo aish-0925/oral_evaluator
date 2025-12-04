@@ -1,0 +1,201 @@
+audio_path,question_id,transcribed_text,human_score
+data/processed_audio/Q001.wav,Q001,An OS is a system of software that manages hardware software resources and provides services for computer programs.,9
+data/processed_audio/Q002.wav,Q002,Function includes process management memory management file system management device management and security.,8
+data/processed_audio/Q003.wav,Q003,"A process is a program in execution including program, counter, registers and variables.",9
+data/processed_audio/Q004.wav,Q004,A thread is the smallest unit of process that can be scheduled and executed independently.,9
+data/processed_audio/Q005.wav,Q005,A process is an independent program with its own memory while a thread shares memory with within and process and is lighter.,8
+data/processed_audio/Q006.wav,Q006,Multidasking allows multiple processes to run simultaneously on a CPU by managing execution through scheduling.,7
+data/processed_audio/Q007.wav,Q007,Time sharing allows multiple users to use a system simultaneously by rapidly switching CPU time MN processes.,8
+data/processed_audio/Q008.wav,Q008,Context switching is saving the state of process and loading the state of another process. So the CPU can switch between them.,9
+data/processed_audio/Q009.wav,Q009,"The kernel is the core part of NOS that manages system resource, process scheduling, memory, and hardware communication.",6
+data/processed_audio/Q010.wav,Q010,Monolithic OS has all services in one kernel. Micro kernel OS keeps minimal services in kernel and others in user space for modularity.,6
+data/processed_audio/Q011.wav,Q011,Virtual memory is memory management technique that gives an application the illusion of large continuous memory using this space.,9
+data/processed_audio/Q012.wav,Q012,Paging Device Memory into Fixed Size Pages to eliminate fragmentation and map virtual memory to physical memory.,8
+data/processed_audio/Q013.wav,Q013,Segmentation divides memory into variable size segments based on logical divisions of a program like code data stack.,9
+data/processed_audio/Q014.wav,Q014,a paid fault occurs when a program acts as a page not currently in physical memory triggering loading from disk,5
+data/processed_audio/Q015.wav,Q015,Demand Paging Lodes are Paging to Memory only when it is required by the process reducing memory usage.,4
+data/processed_audio/Q016.wav,Q016,Trashing occurs when excessive page swapping reduces system performance due to lack of sufficient memory.,3
+data/processed_audio/Q017.wav,Q017,Nidlock is a situation where processes are waiting indefinitely for resources held by each other.,2
+data/processed_audio/Q018.wav,Q018,"Mutual exclusion, hold and wait, no preemption and circular weight.",9
+data/processed_audio/Q019.wav,Q019,Process scheduling is deciding the order of execution or process is using algorithms to maximize CPU utilization.,7.8
+data/processed_audio/Q020.wav,Q020,"FCFS SJF Pre-Ority, Round Robin, Multilevel Q, Multilevel Feedback Q",1
+data/processed_audio/Q021.wav,Q021,"First come first serve, schedule process in the order they arrive.",9
+data/processed_audio/Q022.wav,Q022,"Shortest job, first schedule the process with the smallest execution time next.",9
+data/processed_audio/Q023.wav,Q023,The impute scheduling allows a running process to be interrupted and replaced by a higher priority process.,6
+data/processed_audio/Q024.wav,Q024,Non-Priyam 2 Shreduli does not interrupt a running process until it finishes or voluntarily yields a CPU.,3
+data/processed_audio/Q025.wav,Q025,Round Robin Shedulee has ants affixed time slices to processes in cyclic order and ensuring fairness.,4
+data/processed_audio/Q026.wav,Q026,Priority scheduling turns the process with the highest priority next.,8.5
+data/processed_audio/Q027.wav,Q027,Starvation occurs when a low priority process never gets CPU due to the constant high priority process arrival.,3
+data/processed_audio/Q028.wav,Q028,Aging gradually increases priority of waiting process to prevent starvation.,1.2
+data/processed_audio/Q029.wav,Q029,A semaphore is a synchronization tool used to control access to shared resources typically using integer counters.,8
+data/processed_audio/Q030.wav,Q030,Binary SMA4 can take 0 or 1. Counting SMA4 can take any integer value for multiple resources.,1
+data/processed_audio/Q031.wav,Q031,This is a locking mechanism ensuring that only one thread access or resources at a time.,1
+data/processed_audio/Q032.wav,Q032,is for mutual exclusion with ownership. Semifor can allow multiple processes and has no ownership.,1
+data/processed_audio/Q033.wav,Q033,"A classic synchronization problem where producers generate data and consumers use it, requiring proper synchronization to avoid risk conditions.",1
+data/processed_audio/Q034.wav,Q034,"condition workers when multiple processes, accesses shared data simultaneously leading to inconsistent results.",3
+data/processed_audio/Q035.wav,Q035,Critical section problem involves ensuring only one processes executes a critical section at a time to prevent conflicts.,4
+data/processed_audio/Q036.wav,Q036,BZ weighting occurs when your processes continuously checks a condition instead of creeping Basting CPU cycles,5
+data/processed_audio/Q037.wav,Q037,This monitor is a high level synchronization construct that allows safe access to shared resources by multiple threats.,7
+data/processed_audio/Q038.wav,Q038,"IPC allows process to exchange data using methods like message passing, shared memory, pipes and sockets.",8
+data/processed_audio/Q039.wav,Q039,"Share in memory, message passing, pipes, sockets and signals.",8
+data/processed_audio/Q040.wav,Q040,"PIPZ unidirectional communication channel between processes, usual in-producer consumer style.",0
+data/processed_audio/Q041.wav,Q041,Field memory allows multiple process to access the same memory region for faster communication.,1
+data/processed_audio/Q042.wav,Q042,Passing allows processes to communicate by sending and receiving messages suitable for distributed systems.,3
+data/processed_audio/Q043.wav,Q043,"A file system manages how data is stored, organized and accessed on storage devices.",9
+data/processed_audio/Q044.wav,Q044,"Sequential access, direct access and index access.",8.5
+data/processed_audio/Q045.wav,Q045,VFS is an abstraction layer that allow the OS to support multiple types of file system in a uniform B.,1
+data/processed_audio/Q046.wav,Q046,Fragmentation occurs when memory or disk space is used in sufficiently types internal and external fragmentation.,9
+data/processed_audio/Q047.wav,Q047,Action is combining free memory space to form large contagious blocks to reduce external fragmentation.,1
+data/processed_audio/Q048.wav,Q048,Swapping most processes between main memory and secondary stories to free memory for other processes.,6
+data/processed_audio/Q049.wav,Q049,"Cash is a small, fast memory storing frequently accessed data while virtual memory extends a physical memory like using this.",8
+data/processed_audio/Q050.wav,Q050,In the bootloader is a program that lowers the operating system into memory during system,1
+data/processed_audio/Q051.wav,Q051,system college and interface of programs to request service from the OS kernel.,0
+data/processed_audio/Q052.wav,Q052,"Open read write fork, execute, await, exit.",0
+data/processed_audio/Q053.wav,Q053,"Difference user mode, Colonel more placed and essential role in the OS basics helping the operating system to function a feature in key.",0
+data/processed_audio/Q054.wav,Q054,4 creates a new process by duplicating the calling process.,1
+data/processed_audio/Q055.wav,Q055,Segued replaces the current process image with the new program.,0
+data/processed_audio/Q056.wav,Q056,The zombie process has completed the execution but still has entered the process table to store the exit status.,9
+data/processed_audio/Q057.wav,Q057,"An orphan process, parent terminates before it and it is adopted by the in-need process.",5
+data/processed_audio/Q058.wav,Q058,"In it is the first process started by the kernel at boot, responsible for starting the system services.",2
+data/processed_audio/Q059.wav,Q059,New Ready Running Waiting Terminators,1
+data/processed_audio/Q060.wav,Q060,Ready Q holds all processes in main memory that are ready to execute.,4
+data/processed_audio/Q061.wav,Q061,Waiting Q-Holes processes waiting for IO or other events.,1
+data/processed_audio/Q062.wav,Q062,I use scheduling plays an essential role in CPU scheduling helping the operating system to function efficiently.,0
+data/processed_audio/Q063.wav,Q063,"FCFSSSTF shortest seek time first scan, C scan, look, see, look",0
+data/processed_audio/Q064.wav,Q064,   a ce    kr bounda 3x 8x   k culture,0
+data/processed_audio/Q065.wav,Q065,"In simple terms, Copy On Write refers to a mechanism or principle used in OS basics to manage processes or resources.",3
+data/processed_audio/Q066.wav,Q066,Discuss space used to hold pages temporarily when RAM is full.,3
+data/processed_audio/Q067.wav,Q067,Boot process plays an essential role in process management helping the operating system to function efficiently.,6
+data/processed_audio/Q068.wav,Q068,"Real-time operating system RTOS, place and essential role in OS basics, helping the operating system to function efficiently.",7
+data/processed_audio/Q069.wav,Q069,"In simple terms, difference hearts of RTOs, refers to a mechanism or principle used in OS basics to manage processes or resources.",8
+data/processed_audio/Q070.wav,Q070,"Our distributed OS manages, resources and processes across multiple network computers as a single system.",7
+data/processed_audio/Q071.wav,Q071,Network operating system plays an essential role in an OS basis helping the operating system to function FN sheet.,4
+data/processed_audio/Q072.wav,Q072,"Micro-Courner, Place and Essential Roll in OS Paces helping the operating system to function efficiently.",5
+data/processed_audio/Q073.wav,Q073,Moralethic kernel plays an essential role in noise basis helping the operating system to function efficiently.,6
+data/processed_audio/Q074.wav,Q074,Hybrid kernel plays an essential role in OS basis helping the operating systems to function efficiently.,4
+data/processed_audio/Q075.wav,Q075,"Paging uses fixed block, size block, segmentation uses, variable size, logical division of memory.",6
+data/processed_audio/Q076.wav,Q076,Page replacement select with memory pages to swap out when new pages are needed.,6
+data/processed_audio/Q077.wav,Q077,Name page replacement algorithm place and essential role in virtual memory helping the operating system to function efficiently.,3
+data/processed_audio/Q078.wav,Q078,Fe4 page replacement place and essential roll and virtual memory helping the operating system to function efficiently.,4
+data/processed_audio/Q079.wav,Q079,Allar you remove the page that has not been used for the longest time.,1
+data/processed_audio/Q080.wav,Q080,Working set model keeps track of pages recently used to reduce page fault.,0
+data/processed_audio/Q081.wav,Q081,"Segmentation fault occurs and up process accesses memory, it is not allowed to.",8
+data/processed_audio/Q082.wav,Q082,"Memory leak occurs when a program allocates memory but fails to release it, reducing available memory.",8
+data/processed_audio/Q083.wav,Q083,"In simple terms, Dems segmentation refers to a mechanism or principle used in memory management to manage processes or resources.",3
+data/processed_audio/Q084.wav,Q084,"SuperBlock contains metadata about the file system like size, free blocks and iNodecon.",2
+data/processed_audio/Q085.wav,Q085,I know stores metadata about a file like permissions ownership and pointers to data blocks.,3
+data/processed_audio/Q086.wav,Q086,What are the types of file systems plays and essential role in file systems helping the operating system to function efficient.,4
+data/processed_audio/Q087.wav,Q087,"In simple terms, journaling in file systems refers to a mechanism or principle used in file systems to manage processes or resources.",1
+data/processed_audio/Q088.wav,Q088,Ride plays an essential role in OS basics helping the operating system to function efficiently.,1.2
+data/processed_audio/Q089.wav,Q089,"Name, right levels, plays an essential role in OSP-Sylping the operating system to function efficiently.",1
+data/processed_audio/Q090.wav,Q090,Threadpool plays an essential role in process management helping the operating system to function efficient.,1
+data/processed_audio/Q091.wav,Q091,Real-time process must complete within strict timings constraints.,3
+data/processed_audio/Q092.wav,Q092,Synchronous I.O. waits for operation completion. A Synchronous I.O. allows the process to continue execution.,8
+data/processed_audio/Q093.wav,Q093,Paging transfers pages between this scan memory swapping most entire processes.,9
+data/processed_audio/Q094.wav,Q094,A kernel module can be dynamically loaded or unloaded without rebooting the OS.,7
+data/processed_audio/Q095.wav,Q095,A demon is a background process that runs without user interaction.,5
+data/processed_audio/Q096.wav,Q096,Bootstrapping is a process of loading the OS into memory from firmware.,8
+data/processed_audio/Q097.wav,Q097,Slab allocation catches memory objects for efficient allocation and the allocation.,3
+data/processed_audio/Q098.wav,Q098,"In simple terms, Spinlock refers to a mechanism or principle used in a OS basics to manage processes or resources.",4
+data/processed_audio/Q099.wav,Q099,"In simple terms, distributed file system refers to a mechanism or principle used in file systems to manage processes or resources.",3
+data/processed_audio/Q100.wav,Q100,"Colonel Panic plays an essential role in OS basics, helping the operating system to function efficiently.",8
+data/processed_audio/Q101.wav,Q101,Pages are loaded into memory only when referenced reducing memory usage.,9
+data/processed_audio/Q102.wav,Q102,Logical address is generated by the CPU. Physical address is the actual location in memory.,2
+data/processed_audio/Q103.wav,Q103,"Address binding maps logical address to physical addresses. It can occur at compiled time, load time or runtime.",3
+data/processed_audio/Q104.wav,Q104,Dynamic loading loads are routine into memory only when it is called.,6
+data/processed_audio/Q105.wav,Q105,Dynamic linking links library routines at runtime rather than at compile time.,7
+data/processed_audio/Q106.wav,Q106,A race condition occurs when multiple processes access shared data concurrently causing unpredictable results.,9
+data/processed_audio/Q107.wav,Q107,Mutual exclusion ensures that only one process can access a critical section at a time.,8
+data/processed_audio/Q108.wav,Q108,"Preemptive scheduling allows interruption of processes, non-preemptive weights until a process finishes or blocks.",7
+data/processed_audio/Q109.wav,Q109,"Processes are divided into queues based on priority or type, each with its own scheduling algorithm.",8.9
+data/processed_audio/Q110.wav,Q110,"Processes can move between cues based on behavior, allowing flexibility and fairness.",7.9
+data/processed_audio/Q111.wav,Q111,Aging gradually increases the priority of waiting processes to prevent starvation.,2
+data/processed_audio/Q112.wav,Q112,"Internal fragmentation based memory inside allocated blocks, external fragmentation occurs when free memory is split into small contiguous blocks.",7
+data/processed_audio/Q113.wav,Q113,A file descriptors and integer hand and used to access files or IOS strings.,5
+data/processed_audio/Q114.wav,Q114,"A program is a passive set of instructions, a process is a running instance of a program.",8
+data/processed_audio/Q115.wav,Q115,Cooperative multitasking relies on processes to yield control. The empty multitasking allows OS to forcibly switch processes.,6
+data/processed_audio/Q116.wav,Q116,A kernel thread is managed by the OS kernel and has full access to system resources.,7
+data/processed_audio/Q117.wav,Q117,A user thread is managed in user space without kernel involvement for context switching.,4
+data/processed_audio/Q118.wav,Q118,"Efficiency PU utilization, faster execution, better responsiveness and resource sharing.",7
+data/processed_audio/Q119.wav,Q119,Switching the CPU from one thread to another within the same process or between processes.,7
+data/processed_audio/Q120.wav,Q120,"PCB stores, process information, in loading state, program counter, CPU registers, memory limits and are your status.",9
+data/processed_audio/Q121.wav,Q121,A segment of code that accesses shared resources and must be executed exclusively.,6
+data/processed_audio/Q122.wav,Q122,Dep link dalam hasil belaing   is Mari Kim declared,0
+data/processed_audio/Q123.wav,Q123,A software-based algorithm for mutual exclusion between two processes using flags and turn variable.,8
+data/processed_audio/Q124.wav,Q124,SEMA 4 with integer value that allows multiple processes to access shared resources simultaneously.,2
+data/processed_audio/Q125.wav,Q125,Binary Sema 4 Allos 1 Trusses Counting Sema 4 Allos Multiple Trusses,0
+data/processed_audio/Q126.wav,Q126,Continuously checking a condition in a loop instead of sleeping wasting CPU cycles.,3
+data/processed_audio/Q127.wav,Q127,Ensuring at least one necessary condition for that lock cannot hold.,2
+data/processed_audio/Q128.wav,Q128,"Dynamically checks resource allocation to award unsafe states, for example, bankers algorithm.",1
+data/processed_audio/Q129.wav,Q129,A deadlock avoidance algorithm that checks if resource allocation leads to a safe state.,6
+data/processed_audio/Q130.wav,Q130,OS periodically checks for deadlocks and recovers if necessary.,1
+data/processed_audio/Q131.wav,Q131,Techniques include terminating processes or pre-empting resources to resolve dead locks.,1
+data/processed_audio/Q132.wav,Q132,dividing memory into fixed size pages for efficient allocation and mapping virtual memory.,6
+data/processed_audio/Q133.wav,Q133,"Paging uses fixed-sized pages, segmentation uses variable-sized logical segments.",5
+data/processed_audio/Q134.wav,Q134,Occurs when a process accesses a page not in memory triggering loading from disk.,4
+data/processed_audio/Q135.wav,Q135,Lolling a page into memory only when it is needed by a process.,3
+data/processed_audio/Q136.wav,Q136,The set of pages actively used by a process to minimize page faults.,2
+data/processed_audio/Q137.wav,Q137,Exissive page wrapping that slows down system performance.,1
+data/processed_audio/Q138.wav,Q138,"Logical memory is generated by CPU, physical memory is actual ram blockation.",5
+data/processed_audio/Q139.wav,Q139,This space used to hold pages temporarily when Ram is...,2
+data/processed_audio/Q140.wav,Q140,Memory optimization where copies of a resource are made only when modified.,1
+data/processed_audio/Q141.wav,Q141,provides an abstraction of memory using this storage to extend physical RAM.,1
+data/processed_audio/Q142.wav,Q142,"Accessing unauthorized memory, causing a runtime error.",5
+data/processed_audio/Q143.wav,Q143,metadata infinal system that stores information about this layout and free space.,3
+data/processed_audio/Q144.wav,Q144,"stores metadata for a fine including permissions, ownership and data block pointers.",2
+data/processed_audio/Q145.wav,Q145,"FAT is simpler, less secure, NTFS supports, permissions, journaling and large files.",6
+data/processed_audio/Q146.wav,Q146,Logging changes before writing to prevent corruption after crashes.,4
+data/processed_audio/Q147.wav,Q147,Redundant array of independent disk for redundancy and performance.,2
+data/processed_audio/Q148.wav,Q148,RAID 015610,0
+data/processed_audio/Q149.wav,Q149,Software that allows the OS to communicate with hardware devices.,7
+data/processed_audio/Q150.wav,Q150,Temporarily storing input output data in memory to improve performance.,7
+data/processed_audio/Q151.wav,Q151,Block Devices Transfer Data Infixed Size Blocks Character Devices Transfer Byt-by-byt.,2
+data/processed_audio/Q152.wav,Q152,DMA allows devices to access memory directly without CPU involvement.,7
+data/processed_audio/Q153.wav,Q153,"Holding data temporarily for devices to process at their own speed, example, print slupper.",1
+data/processed_audio/Q154.wav,Q154,Program that lowers the OS into memory during system start-up.,6
+data/processed_audio/Q155.wav,Q155,Interface for programs to request OS services.,4
+data/processed_audio/Q156.wav,Q156,"Process Control File Management, Device Management, Information Maintenance, Communication.",8
+data/processed_audio/Q157.wav,Q157,Create a new process by duplicating the calling process.,7
+data/processed_audio/Q158.wav,Q158,       tract                           invers                      India.                 .,0
+data/processed_audio/Q159.wav,Q159,Completed process that still occupies process table entry.,3
+data/processed_audio/Q160.wav,Q160,"Process whose parent has terminated, adopted by In-Eat Process.",1
+data/processed_audio/Q161.wav,Q161,First process started by kernel during boot to initialize the system.,3
+data/processed_audio/Q162.wav,Q162,"New, Ready, Run, Waiting, Terminated",9
+data/processed_audio/Q163.wav,Q163,Horses Processes ready to execute in main memory.,0
+data/processed_audio/Q164.wav,Q164,Once processes ready to execute the main memory.,6
+data/processed_audio/Q165.wav,Q165,"Determines order of input output operation, execution for efficiency.",8
+data/processed_audio/Q166.wav,Q166,"FCFS SSDSEANSIEG scans, look ,      ",0
+data/processed_audio/Q167.wav,Q167,"Synchronous weights for completion, A synchronous allows concurrent execution.",7
+data/processed_audio/Q168.wav,Q168,OS designed for predictable times critical operation.,5
+data/processed_audio/Q169.wav,Q169,"Hard RTOs, guarantees deadline, soft RTOs is best effort.",5
+data/processed_audio/Q170.wav,Q170,Managers resource across multiple networked computers as single system.,8
+data/processed_audio/Q171.wav,Q171,Manage your resources and processes across the multiple machines as one system.,5
+data/processed_audio/Q172.wav,Q172,Provide network services like file sharing and communication.,4
+data/processed_audio/Q173.wav,Q173,"Micro-Colonel contains minimal core services like communication, scheduling and memory management.",7
+data/processed_audio/Q174.wav,Q174,Kono lethi kernel contains all OAS services in one large block of core running in a kernel mode.,2
+data/processed_audio/Q175.wav,Q175,Hybrid kernel plays an essential role in OS basics helping the operating system to function efficiently.,4
+data/processed_audio/Q176.wav,Q176,Lo-Dable component that extends kernel functionality,1
+data/processed_audio/Q177.wav,Q177,Background processes running without direct user interaction.,3
+data/processed_audio/Q178.wav,Q178,"loading OS into memory form, frameware",2
+data/processed_audio/Q179.wav,Q179,This is a location technique cashing frequently used objects.,6
+data/processed_audio/Q180.wav,Q180,Process weights actively in loop until resource is free.,7
+data/processed_audio/Q181.wav,Q181,"In simple terms, distributed file system refers to mechanism or principle used in file systems to manage processes or resources.",2
+data/processed_audio/Q182.wav,Q182,Colonel Panic occurs when OS detects a fatal error for which it cannot safely recover.,2
+data/processed_audio/Q183.wav,Q183,Colonel code that can be loaded or unloaded undynamically without reboot.,3
+data/processed_audio/Q184.wav,Q184,I love in kernel task to be interrupted for higher priority task.,0
+data/processed_audio/Q185.wav,Q185,"Maps, device memory into process address space for direct taxi.",0
+data/processed_audio/Q186.wav,Q186,Beta Structure Mapping Virtual Addresses to Physical Addresses,4
+data/processed_audio/Q187.wav,Q187,"Single page table mapping, physical frames to virtual addresses to save memory.",2
+data/processed_audio/Q188.wav,Q188,Cash that stores recent virtual to physical address mappings.,6
+data/processed_audio/Q189.wav,Q189,Accessing unauthorized memory causing runtime error.,1
+data/processed_audio/Q190.wav,Q190,Only the required segment of program is loaded into memory when needed.,3
+data/processed_audio/Q191.wav,Q191,"In simple terms, super blog refers to a mechanism or a principle used in OIS basics to manage processes or resources.",7
+data/processed_audio/Q192.wav,Q192,Logs update before writing to this to prevent corruption.,3
+data/processed_audio/Q193.wav,Q193,"File a location table, a simple file system format.",2
+data/processed_audio/Q194.wav,Q194,New technology file system with security journaling and large file support.,4
+data/processed_audio/Q195.wav,Q195,"Metadata structures during file info like permission, ownership and pointers.",8
+data/processed_audio/Q196.wav,Q196,"In simple terms, R8 refers to mechanism or principle used in OS basics to manage processes or resources.",2
+data/processed_audio/Q197.wav,Q197,Direct memory access allows devices to read or write memory directly.,6
+data/processed_audio/Q198.wav,Q198,You need directional communication channels between processes.,3
+data/processed_audio/Q199.wav,Q199,Shocket plays an essential role in OS basics helping the operating system to function efficiently.,5
+data/processed_audio/Q200.wav,Q200,"Mechanism for Processes to Exchange Data, Shared Memory, Message Passing.",5

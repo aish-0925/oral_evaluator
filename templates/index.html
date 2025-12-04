@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Oral Evaluator</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa5b1; --accent:#6ee7b7;
+      --danger:#fb7185; --card-radius:12px; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+      color:#e6eef6;
+    }
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#071122,#081423);display:flex;align-items:center;justify-content:center;}
+    .container{width:980px;max-width:96%;margin:30px auto;}
+    .card{background:linear-gradient(180deg,var(--card),#071029);border-radius:12px;padding:20px;box-shadow:0 8px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+    .title{font-size:20px;margin-bottom:6px}
+    .subtitle{font-size:13px;color:var(--muted);margin-bottom:12px}
+    .question-box{background:rgba(255,255,255,0.02);padding:14px;border-radius:10px;border:1px solid rgba(255,255,255,0.02);margin-bottom:14px}
+    .controls{display:flex;gap:12px;align-items:center}
+    .btn{padding:10px 16px;border-radius:10px;border:none;cursor:pointer;font-weight:700;background:linear-gradient(90deg,#0ea5a9,#06b6d4);color:#012}
+    .btn.secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--accent)}
+    .btn:disabled{opacity:0.45;cursor:not-allowed}
+    .recorder{display:flex;align-items:center;gap:12px;padding:12px;border-radius:10px;background:rgba(255,255,255,0.01);border:1px solid rgba(255,255,255,0.02)}
+    .progress-bar{height:12px;border-radius:8px;background:rgba(255,255,255,0.04);overflow:hidden;width:260px}
+    .progress-fill{height:100%;width:0%;background:linear-gradient(90deg,#60efbc,#58a6ff);transition:width 0.08s linear}
+    .time-left{font-size:13px;color:var(--muted);min-width:50px;text-align:right}
+    .feedback{margin-top:14px;padding:12px;border-radius:10px;background:rgba(255,255,255,0.01);border:1px solid rgba(255,255,255,0.02);display:none}
+    .score{font-size:36px;font-weight:800;margin:6px 0}
+    .small{font-size:13px;color:var(--muted)}
+    .subscores{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+    .chip{background:rgba(255,255,255,0.02);padding:8px 10px;border-radius:10px;font-size:13px;border:1px solid rgba(255,255,255,0.02)}
+    .player-wrap{margin-top:12px;display:none}
+    .graphs{margin-top:12px}
+    footer{margin-top:18px;color:var(--muted);font-size:12px;text-align:center}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="title">Oral Evaluator</div>
+      <div class="subtitle">Answer the randomly picked OS question. Record 15s. Get feedback & score.</div>
+
+      <div class="question-box">
+        <div class="small" id="qid">Question</div>
+        <div id="question" style="font-size:18px;font-weight:600;margin-top:6px">Loading...</div>
+      </div>
+
+      <div class="controls">
+        <div class="recorder">
+          <button id="start" class="btn">Record (15s)</button>
+          <button id="stop" class="btn secondary" disabled>Stop</button>
+          <div style="display:flex;flex-direction:column;align-items:flex-start">
+            <div class="progress-bar"><div id="progressFill" class="progress-fill"></div></div>
+            <div style="display:flex;justify-content:space-between;width:260px;margin-top:6px">
+              <div class="small">Recording</div>
+              <div class="small" id="timeLeft">00:15</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-left:auto">
+          <button id="nextQuestion" class="btn secondary" disabled>Next Question</button>
+        </div>
+      </div>
+
+      <!-- audio player only shown after recording & evaluation -->
+      <div class="player-wrap" id="playerWrap">
+        <div class="small">Recorded Audio</div>
+        <audio id="player" controls style="width:100%;margin-top:8px"></audio>
+      </div>
+
+      <!-- feedback area -->
+      <div class="feedback" id="feedback">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div>
+            <div class="small">Final Score</div>
+            <div id="score" class="score">-</div>
+            <div class="small" id="scoreLabel"></div>
+          </div>
+          <div style="flex:1;margin-left:14px">
+            <div class="small">Transcript</div>
+            <div id="transcript" style="margin-top:6px"></div>
+            <div class="subscores" id="subscores"></div>
+            <div style="margin-top:10px">
+              <div class="small">Best reference</div>
+              <div id="bestRef" style="margin-top:6px"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="graphs" id="graphs" style="display:none">
+          <div class="small">Evaluation Graphs</div>
+          <!-- link to server-side graph file (if generated) -->
+          <img id="metricGraph" src="" alt="metrics graph" style="max-width:100%;margin-top:8px;border-radius:8px;display:block" />
+        </div>
+
+        <div style="margin-top:12px;display:flex;gap:8px">
+          <button id="retry" class="btn secondary">Retry This Question</button>
+          <button id="next" class="btn">Next Question</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/js/recorder.js"></script>
+</body>
+</html>

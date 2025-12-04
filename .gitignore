@@ -1,0 +1,9 @@
+__pycache__/
+outputs/audio_records/
+outputs/*.wav
+*.webm
+*.pyc
+env/
+venv/
+.DS_Store
+data/processed_audio/

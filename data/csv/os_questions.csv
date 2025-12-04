@@ -1,0 +1,501 @@
+question_id,question_text
+Q001,What is an operating system?
+Q002,Name the main functions of an operating system.
+Q003,What is a process?
+Q004,What is a thread?
+Q005,What is the difference between process and thread?
+Q006,What is multitasking?
+Q007,What is time-sharing?
+Q008,What is context switching?
+Q009,What is a kernel?
+Q010,Differentiate between monolithic and microkernel OS.
+Q011,What is virtual memory?
+Q012,What is paging?
+Q013,What is segmentation?
+Q014,What is a page fault?
+Q015,Explain demand paging.
+Q016,What is thrashing?
+Q017,What is a deadlock?
+Q018,Name the necessary conditions for deadlock.
+Q019,What is process scheduling?
+Q020,Name CPU scheduling algorithms.
+Q021,Explain FCFS scheduling.
+Q022,Explain SJF scheduling.
+Q023,What is preemptive scheduling?
+Q024,What is non-preemptive scheduling?
+Q025,What is round-robin scheduling?
+Q026,What is priority scheduling?
+Q027,What is starvation in CPU scheduling?
+Q028,What is aging in scheduling?
+Q029,What is a semaphore?
+Q030,What is the difference between binary and counting semaphore?
+Q031,What is a mutex?
+Q032,What is the difference between mutex and semaphore?
+Q033,Explain producer-consumer problem.
+Q034,What is a race condition?
+Q035,What is critical section problem?
+Q036,What is busy waiting?
+Q037,What is a monitor in OS?
+Q038,What is inter-process communication (IPC)?
+Q039,Name types of IPC.
+Q040,What is a pipe in OS?
+Q041,What is shared memory?
+Q042,What is message passing?
+Q043,What is a file system?
+Q044,What are types of file access methods?
+Q045,What is virtual file system (VFS)?
+Q046,What is fragmentation?
+Q047,What is compaction in memory management?
+Q048,What is swapping?
+Q049,Explain the difference between cache and virtual memory.
+Q050,What is a bootloader?
+Q051,What is a system call?
+Q052,Give examples of system calls.
+Q053,What is the difference between user mode and kernel mode?
+Q054,What is fork in OS?
+Q055,What is exec in OS?
+Q056,What is zombie process?
+Q057,What is orphan process?
+Q058,What is init process?
+Q059,What are the different states of a process?
+Q060,What is a ready queue?
+Q061,What is a waiting queue?
+Q062,What is I/O scheduling?
+Q063,Name I/O scheduling algorithms.
+Q064,What is demand-paged virtual memory?
+Q065,What is copy-on-write?
+Q066,What is a swap space?
+Q067,What is a boot process?
+Q068,What is a real-time operating system (RTOS)?
+Q069,What is the difference between hard and soft RTOS?
+Q070,What is a distributed operating system?
+Q071,What is a network operating system?
+Q072,What is a microkernel?
+Q073,What is a monolithic kernel?
+Q074,What is a hybrid kernel?
+Q075,What is paging vs segmentation?
+Q076,What is page replacement?
+Q077,Name page replacement algorithms.
+Q078,Explain FIFO page replacement.
+Q079,Explain LRU page replacement.
+Q080,What is the working set model?
+Q081,What is segmentation fault?
+Q082,What is a memory leak?
+Q083,What is demand segmentation?
+Q084,What is a superblock in file systems?
+Q085,What is an inode?
+Q086,What are types of file systems?
+Q087,What is journaling in file systems?
+Q088,What is RAID?
+Q089,Name RAID levels.
+Q090,What is a thread pool?
+Q091,What is a real-time process?
+Q092,What is the difference between asynchronous and synchronous I/O?
+Q093,What is paging vs swapping?
+Q094,What is loadable kernel module?
+Q095,What is a daemon?
+Q096,What is bootstrapping?
+Q097,What is slab allocation in memory management?
+Q098,What is a spinlock?
+Q099,What is a distributed file system?
+Q100,What is kernel panic?
+Q101,
+Q102,What is demand paging?
+Q103,What is the difference between logical and physical address?
+Q104,What is address binding?
+Q105,What is dynamic loading?
+Q106,What is dynamic linking?
+Q107,What is a race condition?
+Q108,What is mutual exclusion?
+Q109,What is the difference between preemptive and non-preemptive scheduling?
+Q110,What is multilevel queue scheduling?
+Q111,What is multilevel feedback queue scheduling?
+Q112,What is aging in CPU scheduling?
+Q113,What is the difference between internal and external fragmentation?
+Q114,What is a file descriptor?
+Q115,What is the difference between a process and a program?
+Q116,What is the difference between cooperative and preemptive multitasking?
+Q117,What is a kernel thread?
+Q118,What is a user thread?
+Q119,What are the advantages of multithreading?
+Q120,What is a thread context switch?
+Q121,What is a process control block (PCB)?
+Q122,What is a critical section?
+Q123,What are the methods to handle critical section problem?
+Q124,What is Petersonýs solution?
+Q125,What is a counting semaphore?
+Q126,What is the difference between a counting semaphore and a binary semaphore?
+Q127,What is busy waiting?
+Q128,What is a deadlock prevention?
+Q129,What is deadlock avoidance?
+Q130,What is the Banker's Algorithm?
+Q131,What is deadlock detection?
+Q132,What is deadlock recovery?
+Q133,What is paging?
+Q134,What is the difference between paging and segmentation?
+Q135,What is a page fault?
+Q136,What is demand paging?
+Q137,What is a working set?
+Q138,What is thrashing?
+Q139,What is the difference between logical and physical memory?
+Q140,What is a swap space?
+Q141,What is copy-on-write?
+Q142,What is virtual memory?
+Q143,What is segmentation fault?
+Q144,What is a superblock?
+Q145,What is an inode?
+Q146,What is the difference between FAT and NTFS?
+Q147,What is journaling in file systems?
+Q148,What is RAID?
+Q149,What are RAID levels?
+Q150,What is a device driver?
+Q151,What is I/O buffering?
+Q152,What is the difference between block and character devices?
+Q153,What is direct memory access (DMA)?
+Q154,What is spooling?
+Q155,What is a bootloader?
+Q156,What is system call?
+Q157,What are types of system calls?
+Q158,What is fork()?
+Q159,What is exec()?
+Q160,What is a zombie process?
+Q161,What is an orphan process?
+Q162,What is init process?
+Q163,What are process states?
+Q164,What is ready queue?
+Q165,What is waiting queue?
+Q166,What is I/O scheduling?
+Q167,Name I/O scheduling algorithms.
+Q168,What is the difference between synchronous and asynchronous I/O?
+Q169,What is a real-time OS (RTOS)?
+Q170,Difference between hard and soft RTOS?
+Q171,What is a distributed OS?
+Q172,What is a network OS?
+Q173,What is a microkernel?
+Q174,What is a monolithic kernel?
+Q175,What is a hybrid kernel?
+Q176,What is a kernel module?
+Q177,What is daemon process?
+Q178,What is bootstrapping?
+Q179,What is slab allocation?
+Q180,What is spinlock?
+Q181,What is distributed file system?
+Q182,What is kernel panic?
+Q183,What is loadable kernel module (LKM)?
+Q184,What is kernel preemption?
+Q185,What is memory-mapped I/O?
+Q186,What is page table?
+Q187,What is inverted page table?
+Q188,What is TLB (Translation Lookaside Buffer)?
+Q189,What is segmentation fault?
+Q190,What is demand segmentation?
+Q191,What is a superblock?
+Q192,What is journaling?
+Q193,What is FAT?
+Q194,What is NTFS?
+Q195,What is inode?
+Q196,What is RAID?
+Q197,What is DMA?
+Q198,What is a pipe?
+Q199,What is a socket?
+Q200,What is IPC (inter-process communication)?
+Q201,What is message passing?
+Q202,What is shared memory in IPC?
+Q203,What is a message queue?
+Q204,What is a semaphore in OS?
+Q205,What is the difference between counting and binary semaphore?
+Q206,What is a mutex?
+Q207,What is the difference between mutex and semaphore?
+Q208,What is deadlock?
+Q209,What are the necessary conditions for deadlock?
+Q210,What is deadlock prevention?
+Q211,What is deadlock avoidance?
+Q212,What is deadlock detection?
+Q213,What is deadlock recovery?
+Q214,What is process synchronization?
+Q215,What is a critical section problem?
+Q216,What is busy waiting?
+Q217,What is Peterson solution?
+Q218,What is spinlock?
+Q219,What is a kernel thread?
+Q220,What is a user thread?
+Q221,What are advantages of multithreading?
+Q222,What is thread context switch?
+Q223,What is process control block (PCB)?
+Q224,What are the states of a process?
+Q225,What is a ready queue?
+Q226,What is a waiting queue?
+Q227,What is CPU scheduling?
+Q228,Name CPU scheduling algorithms.
+Q229,What is FCFS scheduling?
+Q230,What is SJF scheduling?
+Q231,What is preemptive scheduling?
+Q232,What is non-preemptive scheduling?
+Q233,What is round-robin scheduling?
+Q234,What is priority scheduling?
+Q235,What is starvation?
+Q236,What is aging in CPU scheduling?
+Q237,What is multilevel queue scheduling?
+Q238,What is multilevel feedback queue scheduling?
+Q239,What is a file system?
+Q240,What are file access methods?
+Q241,What is virtual file system (VFS)?
+Q242,What is fragmentation?
+Q243,What is compaction?
+Q244,What is swapping?
+Q245,Difference between cache and virtual memory?
+Q246,What is bootloader?
+Q247,What is system call?
+Q248,Examples of system calls?
+Q249,Difference between user mode and kernel mode?
+Q250,What is fork()?
+Q251,What is exec()?
+Q252,What is zombie process?
+Q253,What is orphan process?
+Q254,What is init process?
+Q255,What is I/O scheduling?
+Q256,Name I/O scheduling algorithms.
+Q257,What is synchronous I/O?
+Q258,What is asynchronous I/O?
+Q259,What is real-time operating system (RTOS)?
+Q260,Difference between hard and soft RTOS?
+Q261,What is distributed operating system?
+Q262,What is network operating system (NOS)?
+Q263,Difference between monolithic and microkernel?
+Q264,What is hybrid kernel?
+Q265,What is a loadable kernel module (LKM)?
+Q266,What is daemon process?
+Q267,What is bootstrapping?
+Q268,What is slab allocation?
+Q269,What is spinlock?
+Q270,What is distributed file system?
+Q271,What is kernel panic?
+Q272,What is memory-mapped I/O?
+Q273,What is page table?
+Q274,What is inverted page table?
+Q275,What is TLB?
+Q276,What is segmentation fault?
+Q277,What is demand segmentation?
+Q278,What is a superblock?
+Q279,What is journaling?
+Q280,What is FAT?
+Q281,What is NTFS?
+Q282,What is inode?
+Q283,What is RAID?
+Q284,What are RAID levels?
+Q285,What is DMA?
+Q286,What is a pipe?
+Q287,What is a socket?
+Q288,What is IPC?
+Q289,What is shared memory in IPC?
+Q290,What is a message queue?
+Q291,What is semaphore in OS?
+Q292,Difference between counting and binary semaphore?
+Q293,What is mutex?
+Q294,Difference between mutex and semaphore?
+Q295,What is deadlock?
+Q296,Necessary conditions for deadlock?
+Q297,What is deadlock prevention?
+Q298,What is deadlock avoidance?
+Q299,What is deadlock detection?
+Q300,What is deadlock recovery?
+Q301,What is process synchronization?
+Q302,What is a critical section?
+Q303,What are methods to solve critical section problem?
+Q304,What is Petersonýs solution?
+Q305,What is a spinlock?
+Q306,What is a kernel thread?
+Q307,What is a user thread?
+Q308,What are advantages of multithreading?
+Q309,What is thread context switch?
+Q310,What is a process control block (PCB)?
+Q311,What are process states?
+Q312,What is a ready queue?
+Q313,What is a waiting queue?
+Q314,What is CPU scheduling?
+Q315,Name CPU scheduling algorithms.
+Q316,What is FCFS scheduling?
+Q317,What is SJF scheduling?
+Q318,What is preemptive scheduling?
+Q319,What is non-preemptive scheduling?
+Q320,What is round-robin scheduling?
+Q321,What is priority scheduling?
+Q322,What is starvation?
+Q323,What is aging in CPU scheduling?
+Q324,What is multilevel queue scheduling?
+Q325,What is multilevel feedback queue scheduling?
+Q326,What is a file system?
+Q327,What are file access methods?
+Q328,What is virtual file system (VFS)?
+Q329,What is fragmentation?
+Q330,What is compaction?
+Q331,What is swapping?
+Q332,Difference between cache and virtual memory?
+Q333,What is a bootloader?
+Q334,What is a system call?
+Q335,Examples of system calls?
+Q336,Difference between user mode and kernel mode?
+Q337,What is fork()?
+Q338,What is exec()?
+Q339,What is a zombie process?
+Q340,What is an orphan process?
+Q341,What is init process?
+Q342,What is I/O scheduling?
+Q343,Name I/O scheduling algorithms.
+Q344,What is synchronous I/O?
+Q345,What is asynchronous I/O?
+Q346,What is a real-time OS (RTOS)?
+Q347,Difference between hard and soft RTOS?
+Q348,What is a distributed OS?
+Q349,What is a network OS (NOS)?
+Q350,Difference between monolithic and microkernel?
+Q351,What is a hybrid kernel?
+Q352,What is a loadable kernel module (LKM)?
+Q353,What is a daemon process?
+Q354,What is bootstrapping?
+Q355,What is slab allocation?
+Q356,What is a spinlock?
+Q357,What is a distributed file system?
+Q358,What is kernel panic?
+Q359,What is memory-mapped I/O?
+Q360,What is a page table?
+Q361,What is an inverted page table?
+Q362,What is a TLB?
+Q363,What is segmentation fault?
+Q364,What is demand segmentation?
+Q365,What is a superblock?
+Q366,What is journaling?
+Q367,What is FAT?
+Q368,What is NTFS?
+Q369,What is an inode?
+Q370,What is RAID?
+Q371,What are RAID levels?
+Q372,What is DMA?
+Q373,What is a pipe?
+Q374,What is a socket?
+Q375,What is IPC?
+Q376,What is shared memory in IPC?
+Q377,What is a message queue?
+Q378,What is a semaphore in OS?
+Q379,Difference between counting and binary semaphore?
+Q380,What is a mutex?
+Q381,Difference between mutex and semaphore?
+Q382,What is deadlock?
+Q383,Necessary conditions for deadlock?
+Q384,What is deadlock prevention?
+Q385,What is deadlock avoidance?
+Q386,What is deadlock detection?
+Q387,What is deadlock recovery?
+Q388,What is process synchronization?
+Q389,What is a critical section?
+Q390,Methods to solve critical section problem?
+Q391,What is Petersonýs solution?
+Q392,What is a spinlock?
+Q393,What is a kernel thread?
+Q394,What is a user thread?
+Q395,Advantages of multithreading?
+Q396,What is thread context switch?
+Q397,What is process control block (PCB)?
+Q398,What are process states?
+Q399,What is a ready queue?
+Q400,What is a waiting queue?
+Q401,What is CPU scheduling?
+Q402,Name CPU scheduling algorithms.
+Q403,What is FCFS scheduling?
+Q404,What is SJF scheduling?
+Q405,What is preemptive scheduling?
+Q406,What is non-preemptive scheduling?
+Q407,What is round-robin scheduling?
+Q408,What is priority scheduling?
+Q409,What is starvation?
+Q410,What is aging in CPU scheduling?
+Q411,What is multilevel queue scheduling?
+Q412,What is multilevel feedback queue scheduling?
+Q413,What is a file system?
+Q414,What are file access methods?
+Q415,What is virtual file system (VFS)?
+Q416,What is fragmentation?
+Q417,What is compaction?
+Q418,What is swapping?
+Q419,Difference between cache and virtual memory?
+Q420,What is a bootloader?
+Q421,What is a system call?
+Q422,Examples of system calls?
+Q423,Difference between user mode and kernel mode?
+Q424,What is fork()?
+Q425,What is exec()?
+Q426,What is a zombie process?
+Q427,What is an orphan process?
+Q428,What is init process?
+Q429,What is I/O scheduling?
+Q430,Name I/O scheduling algorithms.
+Q431,What is synchronous I/O?
+Q432,What is asynchronous I/O?
+Q433,What is a real-time OS (RTOS)?
+Q434,Difference between hard and soft RTOS?
+Q435,What is a distributed OS?
+Q436,What is a network OS (NOS)?
+Q437,Difference between monolithic and microkernel?
+Q438,What is a hybrid kernel?
+Q439,What is a loadable kernel module (LKM)?
+Q440,What is a daemon process?
+Q441,What is bootstrapping?
+Q442,What is slab allocation?
+Q443,What is a spinlock?
+Q444,What is a distributed file system?
+Q445,What is kernel panic?
+Q446,What is memory-mapped I/O?
+Q447,What is a page table?
+Q448,What is an inverted page table?
+Q449,What is a TLB?
+Q450,What is segmentation fault?
+Q451,What is demand segmentation?
+Q452,What is a superblock?
+Q453,What is journaling?
+Q454,What is FAT?
+Q455,What is NTFS?
+Q456,What is an inode?
+Q457,What is RAID?
+Q458,What are RAID levels?
+Q459,What is DMA?
+Q460,What is a pipe?
+Q461,What is a socket?
+Q462,What is IPC?
+Q463,What is shared memory in IPC?
+Q464,What is a message queue?
+Q465,What is a semaphore in OS?
+Q466,Difference between counting and binary semaphore?
+Q467,What is a mutex?
+Q468,Difference between mutex and semaphore?
+Q469,What is deadlock?
+Q470,Necessary conditions for deadlock?
+Q471,What is deadlock prevention?
+Q472,What is deadlock avoidance?
+Q473,What is deadlock detection?
+Q474,What is deadlock recovery?
+Q475,What is process synchronization?
+Q476,What is a critical section?
+Q477,Methods to solve critical section problem?
+Q478,What is Petersonýs solution?
+Q479,What is a spinlock?
+Q480,What is a kernel thread?
+Q481,What is a user thread?
+Q482,Advantages of multithreading?
+Q483,What is thread context switch?
+Q484,What is process control block (PCB)?
+Q485,What are process states?
+Q486,What is a ready queue?
+Q487,What is a waiting queue?
+Q488,What is CPU scheduling?
+Q489,Name CPU scheduling algorithms.
+Q490,What is FCFS scheduling?
+Q491,What is SJF scheduling?
+Q492,What is preemptive scheduling?
+Q493,What is non-preemptive scheduling?
+Q494,What is round-robin scheduling?
+Q495,What is priority scheduling?
+Q496,What is starvation?
+Q497,What is aging in CPU scheduling?
+Q498,What is multilevel queue scheduling?
+Q499,What is multilevel feedback queue scheduling?
+Q500,What is a file system?

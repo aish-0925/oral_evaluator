@@ -1,0 +1,11 @@
+Flask
+sentence-transformers
+transformers
+whisper
+librosa
+soundfile
+numpy
+scikit-learn
+pandas
+tqdm
+ffmpeg-python
